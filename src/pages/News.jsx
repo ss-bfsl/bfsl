@@ -1,4 +1,4 @@
-import { useNewsSocket } from '../lib/useNewsSocket';
+import { useNewsApi } from '../lib/useNewsSocket';
 import { RefreshCw, Circle } from 'lucide-react';
 
 const STATUS_LABEL = {
@@ -16,7 +16,7 @@ const STATUS_COLOR = {
 };
 
 export default function News() {
-  const { items, status, reconnect } = useNewsSocket();
+  const { items, status, reconnect } = useNewsApi();
 
   return (
     <div className="content">
@@ -56,9 +56,7 @@ export default function News() {
         <div style={{ padding: 20, color: 'var(--text-dim)', fontSize: 13 }}>
           {status === 'open'
             ? 'No matching news yet.'
-            : status === 'unavailable'
-              ? 'Live news requires a separately hosted WebSocket service.'
-              : 'Waiting for connection…'}
+            : 'News data could not be loaded. Try again.'}
         </div>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

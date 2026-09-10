@@ -3,9 +3,11 @@ name: Deploy Vite App to GitHub Pages
 on:
   push:
     branches: ["main"]
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,6 +32,17 @@ jobs:
         with:
           node-version: 20
           cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r server/requirements.txt
+
+      - name: Generate news data
+        run: python scripts/generate_news.py
 
       - name: Install dependencies
         run: npm ci

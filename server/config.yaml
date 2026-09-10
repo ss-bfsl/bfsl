@@ -3250,7 +3250,7 @@ companies:
       - "SEBI"
 
   - name: "Phonepe Wealth Broking Private Limited"
-    news_context_keywords:
+    news_context_keywords: 
       - "broker"
       - "broking"
       - "trading"

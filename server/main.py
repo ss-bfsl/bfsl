@@ -15,6 +15,7 @@ import websockets
 from websockets.asyncio.server import serve
 import threading
 import time
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 load_dotenv()
 
@@ -25,8 +26,10 @@ CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
 
 # WebSocket globals
 connected_clients = set()
-WEBSOCKET_HOST = "0.0.0.0"  # Listen on all interfaces
-WEBSOCKET_PORT = int(os.getenv('WEBSOCKET_PORT', 8765))  # Allow environment override
+# WEBSOCKET_HOST = "0.0.0.0"  # Listen on all interfaces
+# WEBSOCKET_PORT = int(os.getenv('WEBSOCKET_PORT', 8765))  # Allow environment override
+WEBSOCKET_HOST = "0.0.0.0" 
+WEBSOCKET_PORT = int(os.getenv("PORT", os.getenv("WEBSOCKET_PORT", 8765)))
 FETCH_INTERVAL = 15 * 60  # Fetch every 15 minutes
 
 
@@ -506,11 +509,45 @@ async def fetch_periodically(config):
 
 
 async def start_websocket_server():
-    """Start the WebSocket server."""
-    print(f"[INFO] Starting WebSocket server on ws://{WEBSOCKET_HOST}:{WEBSOCKET_PORT}")
-    async with serve(handle_websocket, WEBSOCKET_HOST, WEBSOCKET_PORT):
-        print(f"[OK] WebSocket server running. Connect to ws://localhost:{WEBSOCKET_PORT}")
-        await asyncio.Future()  # Run forever
+    """Start the HTTP API used by the static frontend."""
+    class NewsApiHandler(BaseHTTPRequestHandler):
+        def do_OPTIONS(self):
+            self.send_response(204)
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
+            self.send_header("Access-Control-Allow-Headers", "Content-Type")
+            self.end_headers()
+
+        def do_GET(self):
+            if self.path not in ("/api/news", "/news"):
+                self.send_error(404, "Not found")
+                return
+
+            config = load_config()
+            recent_days = config.get("recent_days", 1)
+            items = sorted(
+                (
+                    item for item in load_seen_posts().values()
+                    if is_recent_timestamp(item.get("published_at"), recent_days)
+                ),
+                key=lambda item: item.get("seen_at", ""),
+                reverse=True,
+            )[:50]
+            payload = json.dumps({"items": items}).encode("utf-8")
+
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.send_header("Content-Length", str(len(payload)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(payload)
+
+        def log_message(self, format, *args):
+            return
+
+    server = ThreadingHTTPServer((WEBSOCKET_HOST, WEBSOCKET_PORT), NewsApiHandler)
+    print(f"[INFO] News API running on http://{WEBSOCKET_HOST}:{WEBSOCKET_PORT}/api/news")
+    await asyncio.to_thread(server.serve_forever)
 
 
 async def main_async():
