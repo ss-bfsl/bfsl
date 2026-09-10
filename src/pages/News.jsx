@@ -5,12 +5,14 @@ const STATUS_LABEL = {
   connecting: 'Connecting…',
   open: 'Live',
   closed: 'Disconnected — is main.py running?',
+  unavailable: 'Live feed unavailable on this deployment',
 };
 
 const STATUS_COLOR = {
   connecting: 'var(--amber)',
   open: 'var(--teal)',
   closed: 'var(--rose)',
+  unavailable: 'var(--text-faint)',
 };
 
 export default function News() {
@@ -44,7 +46,7 @@ export default function News() {
           <Circle size={10} fill={STATUS_COLOR[status]} stroke="none" />
           {STATUS_LABEL[status]}
         </div>
-        <button className="btn" onClick={reconnect}>
+        <button className="btn" onClick={reconnect} disabled={status === 'unavailable'}>
           <RefreshCw size={13} />
           Reconnect
         </button>
@@ -52,7 +54,11 @@ export default function News() {
 
       {items.length === 0 ? (
         <div style={{ padding: 20, color: 'var(--text-dim)', fontSize: 13 }}>
-          {status === 'open' ? 'No matching news yet.' : 'Waiting for connection…'}
+          {status === 'open'
+            ? 'No matching news yet.'
+            : status === 'unavailable'
+              ? 'Live news requires a separately hosted WebSocket service.'
+              : 'Waiting for connection…'}
         </div>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

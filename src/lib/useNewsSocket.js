@@ -1,8 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 
 // Points at your news-alerts Python service (main.py). Override by setting
-// VITE_NEWS_WS_URL in a .env file at the project root if it runs elsewhere.
-const WS_URL = import.meta.env.VITE_NEWS_WS_URL || 'ws://localhost:8765';
+// VITE_NEWS_WS_URL in a .env file. Static production builds do not try to
+// connect to localhost because GitHub Pages cannot host the socket service.
+const WS_URL =
+  import.meta.env.VITE_NEWS_WS_URL || (import.meta.env.DEV ? 'ws://localhost:8765' : '');
 
 function normalize(raw) {
   // "initial" items look like {source, title, link, published_at, seen_at, eligible}
@@ -20,12 +22,19 @@ function normalize(raw) {
 
 export function useNewsSocket() {
   const [items, setItems] = useState([]);
-  const [status, setStatus] = useState('connecting'); // connecting | open | closed
+  const [status, setStatus] = useState(WS_URL ? 'connecting' : 'unavailable'); // connecting | open | closed | unavailable
   const socketRef = useRef(null);
   const [reconnectNonce, setReconnectNonce] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
+    if (!WS_URL) {
+      setStatus('unavailable');
+      return () => {
+        cancelled = true;
+      };
+    }
+
     setStatus('connecting');
     const ws = new WebSocket(WS_URL);
     socketRef.current = ws;
