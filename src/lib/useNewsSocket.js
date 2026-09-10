@@ -1,0 +1,60 @@
+import { useEffect, useRef, useState } from 'react';
+
+// Points at your news-alerts Python service (main.py). Override by setting
+// VITE_NEWS_WS_URL in a .env file at the project root if it runs elsewhere.
+const WS_URL = import.meta.env.VITE_NEWS_WS_URL || 'ws://localhost:8765';
+
+function normalize(raw) {
+  // "initial" items look like {source, title, link, published_at, seen_at, eligible}
+  // "new_item" items look like {source, title, link, summary}
+  const company = (raw.source || '').replace(/^News:\s*/, '').replace(/\s*Blog$/, '');
+  return {
+    id: raw.link || `${raw.source}:${raw.title}`,
+    title: raw.title || '(no title)',
+    company,
+    summary: raw.summary || '',
+    date: raw.published_at || raw.seen_at || new Date().toISOString(),
+    sourceUrl: raw.link || '#',
+  };
+}
+
+export function useNewsSocket() {
+  const [items, setItems] = useState([]);
+  const [status, setStatus] = useState('connecting'); // connecting | open | closed
+  const socketRef = useRef(null);
+  const [reconnectNonce, setReconnectNonce] = useState(0);
+
+  useEffect(() => {
+    let cancelled = false;
+    setStatus('connecting');
+    const ws = new WebSocket(WS_URL);
+    socketRef.current = ws;
+
+    ws.onopen = () => !cancelled && setStatus('open');
+    ws.onclose = () => !cancelled && setStatus('closed');
+    ws.onerror = () => !cancelled && setStatus('closed');
+
+    ws.onmessage = (event) => {
+      if (cancelled) return;
+      try {
+        const msg = JSON.parse(event.data);
+        if (msg.type === 'initial') {
+          setItems(msg.items.map(normalize));
+        } else if (msg.type === 'new_item') {
+          setItems((prev) => [normalize(msg.data), ...prev]);
+        }
+      } catch (e) {
+        console.error('Bad message from news socket:', e);
+      }
+    };
+
+    return () => {
+      cancelled = true;
+      ws.close();
+    };
+  }, [reconnectNonce]);
+
+  const reconnect = () => setReconnectNonce((n) => n + 1);
+
+  return { items, status, reconnect };
+}
