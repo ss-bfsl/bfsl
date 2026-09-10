@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Competitor Benchmark Tool — Frontend (v1)
 
 A React + Vite frontend for tracking broker market share, broking-industry
@@ -101,3 +102,6 @@ src/
     News.jsx               - competitor news feed, hourly cadence
     MutualFunds.jsx        - MF & SIF headline stats, flow chart, top AMCs
 ```
+=======
+# bfsl
+>>>>>>> 113c385d21c8ce24530800fc817a078b9de02c11
