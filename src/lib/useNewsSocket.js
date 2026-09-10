@@ -3,8 +3,13 @@ import { useEffect, useRef, useState } from 'react';
 // Points at your news-alerts Python service (main.py). Override by setting
 // VITE_NEWS_WS_URL in a .env file. Static production builds do not try to
 // connect to localhost because GitHub Pages cannot host the socket service.
-const WS_URL =
-  import.meta.env.VITE_NEWS_WS_URL || (import.meta.env.DEV ? 'ws://localhost:8765' : '');
+const configuredWsUrl = import.meta.env.VITE_NEWS_WS_URL?.trim();
+const isLoopbackUrl = configuredWsUrl && /^(wss?:\/\/)(localhost|127\.0\.0\.1)(?::\d+)?(?:\/|$)/i.test(configuredWsUrl);
+const WS_URL = import.meta.env.DEV
+  ? configuredWsUrl || 'ws://localhost:8765'
+  : configuredWsUrl && !isLoopbackUrl
+    ? configuredWsUrl
+    : '';
 
 function normalize(raw) {
   // "initial" items look like {source, title, link, published_at, seen_at, eligible}
