@@ -11,6 +11,7 @@ const RANGES = [
 export default function DetailModal({ title, subtitle, history, onClose }) {
   const [range, setRange] = useState('1y');
   const [page, setPage] = useState(0);
+  const [chartMode, setChartMode] = useState('value');
 
   const rows = useMemo(() => {
     if (!Array.isArray(history)) return [];
@@ -26,6 +27,14 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
   const pageCount = activeRange.months === Infinity ? 1 : Math.max(1, Math.ceil((history?.length ?? 0) / activeRange.months));
   const canGoOlder = activeRange.months !== Infinity && page < pageCount - 1;
   const canGoNewer = activeRange.months !== Infinity && page > 0;
+  const chartRows = chartMode === 'value'
+    ? rows
+    : rows.map((row, index) => ({
+        ...row,
+        change: index === 0 || typeof rows[index - 1].value !== 'number' || rows[index - 1].value === 0
+          ? null
+          : ((row.value - rows[index - 1].value) / Math.abs(rows[index - 1].value)) * 100,
+      }));
 
   const changeRange = (nextRange) => {
     setRange(nextRange);
@@ -124,18 +133,39 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
             </div>
           ) : (
             <>
+              <div style={{ display: 'flex', gap: 6, marginBottom: 10 }}>
+                {[
+                  { key: 'value', label: 'Value' },
+                  { key: 'change', label: 'Change %' },
+                ].map((mode) => (
+                  <button
+                    key={mode.key}
+                    className="btn"
+                    onClick={() => setChartMode(mode.key)}
+                    style={{
+                      padding: '5px 10px',
+                      fontSize: 12,
+                      background: chartMode === mode.key ? 'var(--amber)' : 'var(--panel)',
+                      color: chartMode === mode.key ? '#1a1305' : 'var(--text)',
+                      borderColor: chartMode === mode.key ? 'var(--amber)' : 'var(--steel)',
+                    }}
+                  >
+                    {mode.label}
+                  </button>
+                ))}
+              </div>
               <div style={{ height: 220, marginBottom: 18 }}>
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={rows} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
+                <LineChart data={chartRows} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
                   <CartesianGrid stroke="#29334a" vertical={false} />
                   <XAxis dataKey="month" tick={{ fill: '#8993ab', fontSize: 10.5 }} axisLine={{ stroke: '#29334a' }} tickLine={false} interval="preserveStartEnd" />
                   <YAxis tick={{ fill: '#8993ab', fontSize: 10.5 }} axisLine={false} tickLine={false} width={64} />
                   <Tooltip
                     contentStyle={{ background: '#121826', border: '1px solid #29334a', borderRadius: 3, fontSize: 12 }}
                     labelStyle={{ color: '#e6e9f0' }}
-                    formatter={(v) => [v.toLocaleString('en-IN'), 'Value']}
+                    formatter={(v) => [typeof v === 'number' ? `${v.toLocaleString('en-IN', { maximumFractionDigits: 2 })}${chartMode === 'change' ? '%' : ''}` : '—', chartMode === 'change' ? 'Change' : 'Value']}
                   />
-                  <Line type="monotone" dataKey="value" stroke="#e0a94e" strokeWidth={2} dot={{ r: 2.5, fill: '#e0a94e' }} />
+                  <Line type="monotone" dataKey={chartMode === 'change' ? 'change' : 'value'} stroke={chartMode === 'change' ? '#4fb0a5' : '#e0a94e'} strokeWidth={2} dot={{ r: 2.5, fill: chartMode === 'change' ? '#4fb0a5' : '#e0a94e' }} connectNulls={false} />
                 </LineChart>
               </ResponsiveContainer>
               </div>

@@ -11,7 +11,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 1,
     "broker": "Groww Invest Tech Private Limited",
     "activeClients": 13347233,
-    "marketShare": 29.68,
+    "marketShare": 29.04,
     "change": 1.7,
     "history": [
       {
@@ -40,7 +40,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 2,
     "broker": "Zerodha Broking Limited",
     "activeClients": 6796854,
-    "marketShare": 15.12,
+    "marketShare": 14.62,
     "change": 0.51,
     "history": [
       {
@@ -69,7 +69,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 3,
     "broker": "Angel One Limited",
     "activeClients": 6718755,
-    "marketShare": 14.94,
+    "marketShare": 14.62,
     "change": 1.28,
     "history": [
       {
@@ -98,7 +98,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 4,
     "broker": "Icici Securities Limited",
     "activeClients": 2156209,
-    "marketShare": 4.8,
+    "marketShare": 4.69,
     "change": 1.1,
     "history": [
       {
@@ -127,7 +127,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 5,
     "broker": "Upstox Securities Private Limited",
     "activeClients": 1864628,
-    "marketShare": 4.15,
+    "marketShare": 4.06,
     "change": 0.2,
     "history": [
       {
@@ -156,7 +156,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 6,
     "broker": "Kotak Securities Ltd.",
     "activeClients": 1391663,
-    "marketShare": 3.1,
+    "marketShare": 3.03,
     "change": 0.68,
     "history": [
       {
@@ -185,7 +185,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 7,
     "broker": "Hdfc Securities Ltd.",
     "activeClients": 1351311,
-    "marketShare": 3.01,
+    "marketShare": 2.94,
     "change": 1.21,
     "history": [
       {
@@ -214,7 +214,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 8,
     "broker": "Raise Securities Private Limited (dhan App)( formerly Known As Moneylicious Securities Private Limited)",
     "activeClients": 1107277,
-    "marketShare": 2.46,
+    "marketShare": 2.41,
     "change": 1.82,
     "history": [
       {
@@ -243,7 +243,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 9,
     "broker": "Sbicap Securities Limited",
     "activeClients": 1043820,
-    "marketShare": 2.32,
+    "marketShare": 2.27,
     "change": -2.46,
     "history": [
       {
@@ -272,7 +272,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 10,
     "broker": "Motilal Oswal Financial Services Limited",
     "activeClients": 906005,
-    "marketShare": 2.01,
+    "marketShare": 1.97,
     "change": 1.01,
     "history": [
       {
@@ -301,7 +301,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 11,
     "broker": "Paytm Money Ltd.",
     "activeClients": 790743,
-    "marketShare": 1.76,
+    "marketShare": 1.72,
     "change": -1.14,
     "history": [
       {
@@ -330,7 +330,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 12,
     "broker": "Indstocks Private Limited",
     "activeClients": 713655,
-    "marketShare": 1.59,
+    "marketShare": 1.55,
     "change": 1.11,
     "history": [
       {
@@ -359,7 +359,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 13,
     "broker": "Sharekhan Ltd.",
     "activeClients": 527565,
-    "marketShare": 1.17,
+    "marketShare": 1.15,
     "change": 0.83,
     "history": [
       {
@@ -388,7 +388,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 14,
     "broker": "Axis Securities Limited",
     "activeClients": 429479,
-    "marketShare": 0.96,
+    "marketShare": 0.93,
     "change": 0.35,
     "history": [
       {
@@ -417,7 +417,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 15,
     "broker": "Iifl Capital Services Ltd.",
     "activeClients": 338771,
-    "marketShare": 0.75,
+    "marketShare": 0.74,
     "change": 1.59,
     "history": [
       {
@@ -446,7 +446,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 16,
     "broker": "5paisa Capital Limited",
     "activeClients": 321573,
-    "marketShare": 0.72,
+    "marketShare": 0.7,
     "change": 1.95,
     "history": [
       {
@@ -475,7 +475,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 17,
     "broker": "Aaritya Broking Private Ltd (Sahi)",
     "activeClients": 252951,
-    "marketShare": 0.56,
+    "marketShare": 0.55,
     "change": 10.83,
     "history": [
       {
@@ -504,7 +504,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 18,
     "broker": "Choice Equity Broking Private Limited",
     "activeClients": 235325,
-    "marketShare": 0.52,
+    "marketShare": 0.51,
     "change": -0.23,
     "history": [
       {
@@ -533,7 +533,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 19,
     "broker": "Geojit Investments Limited",
     "activeClients": 209373,
-    "marketShare": 0.47,
+    "marketShare": 0.46,
     "change": 0.15,
     "history": [
       {
@@ -562,7 +562,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 20,
     "broker": "Phonepe Wealth Broking Private Limited",
     "activeClients": 205141,
-    "marketShare": 0.46,
+    "marketShare": 0.45,
     "change": 2.57,
     "history": [
       {
@@ -591,7 +591,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 21,
     "broker": "Fyers Securities Private Limited",
     "activeClients": 196429,
-    "marketShare": 0.44,
+    "marketShare": NaN,
     "change": 0.67,
     "history": [
       {
@@ -620,7 +620,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 22,
     "broker": "Mirae Asset Capital Markets ( India ) Private Limited",
     "activeClients": 191277,
-    "marketShare": 0.43,
+    "marketShare": NaN,
     "change": -2.91,
     "history": [
       {
@@ -649,7 +649,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 23,
     "broker": "Smc Global Securities Ltd.",
     "activeClients": 159798,
-    "marketShare": 0.36,
+    "marketShare": NaN,
     "change": 0.71,
     "history": [
       {
@@ -678,7 +678,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 24,
     "broker": "Anand Rathi Share And Stock Brokers Limited",
     "activeClients": 152440,
-    "marketShare": 0.34,
+    "marketShare": NaN,
     "change": 0.97,
     "history": [
       {
@@ -707,7 +707,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 25,
     "broker": "Jainam Broking Limited",
     "activeClients": 150445,
-    "marketShare": 0.33,
+    "marketShare": NaN,
     "change": 1.96,
     "history": [
       {
@@ -736,7 +736,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 26,
     "broker": "Nuvama Wealth And Investment Limited.",
     "activeClients": 138989,
-    "marketShare": 0.31,
+    "marketShare": NaN,
     "change": 0.52,
     "history": [
       {
@@ -765,7 +765,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 27,
     "broker": "Nirmal Bang Securities Pvt. Ltd.",
     "activeClients": 135770,
-    "marketShare": 0.3,
+    "marketShare": NaN,
     "change": 0.69,
     "history": [
       {
@@ -794,7 +794,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 28,
     "broker": "Nu Investors Technologies Private Limited (lemonn)",
     "activeClients": 134637,
-    "marketShare": 0.3,
+    "marketShare": NaN,
     "change": 16.66,
     "history": [
       {
@@ -823,7 +823,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 29,
     "broker": "Marwadi Shares And Finance Limited",
     "activeClients": 130489,
-    "marketShare": 0.29,
+    "marketShare": NaN,
     "change": 1.37,
     "history": [
       {
@@ -848,7 +848,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 30,
     "broker": "Religare Broking Limited",
     "activeClients": 129369,
-    "marketShare": 0.29,
+    "marketShare": NaN,
     "change": -2.05,
     "history": [
       {
@@ -877,7 +877,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 31,
     "broker": "Jm Financial Services Limited",
     "activeClients": 113671,
-    "marketShare": 0.25,
+    "marketShare": NaN,
     "change": 0.49,
     "history": [
       {
@@ -906,7 +906,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 32,
     "broker": "Ventura Securities Limited",
     "activeClients": 99576,
-    "marketShare": 0.22,
+    "marketShare": NaN,
     "change": 0.79,
     "history": [
       {
@@ -931,7 +931,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 33,
     "broker": "Yes Securities (india) Limited",
     "activeClients": 95661,
-    "marketShare": 0.21,
+    "marketShare": NaN,
     "change": 1.15,
     "history": [
       {
@@ -960,7 +960,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 34,
     "broker": "Alice Blue Fin Svcs P Ltd",
     "activeClients": 95042,
-    "marketShare": 0.21,
+    "marketShare": NaN,
     "change": 1.01,
     "history": [
       {
@@ -989,7 +989,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 35,
     "broker": "Finvasia Securities Private Limited",
     "activeClients": 93517,
-    "marketShare": 0.21,
+    "marketShare": NaN,
     "change": -0.35,
     "history": [
       {
@@ -1018,7 +1018,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 36,
     "broker": "Moneywise Finvest Limited (Stoxkart)",
     "activeClients": 80710,
-    "marketShare": 0.18,
+    "marketShare": NaN,
     "change": 2.17,
     "history": [
       {
@@ -1047,7 +1047,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 37,
     "broker": "Tradebulls Securities (p) Ltd.",
     "activeClients": 77966,
-    "marketShare": 0.17,
+    "marketShare": NaN,
     "change": 0.84,
     "history": [
       {
@@ -1076,7 +1076,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 38,
     "broker": "Nj India Invest Private Limited",
     "activeClients": 74320,
-    "marketShare": 0.17,
+    "marketShare": NaN,
     "change": 1.34,
     "history": [
       {
@@ -1105,7 +1105,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 39,
     "broker": "Stockholding Services Limited",
     "activeClients": 73251,
-    "marketShare": 0.16,
+    "marketShare": NaN,
     "change": 0.22,
     "history": [
       {
@@ -1134,7 +1134,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 40,
     "broker": "Aditya Birla Money Limited",
     "activeClients": 68323,
-    "marketShare": 0.15,
+    "marketShare": NaN,
     "change": 0.67,
     "history": [
       {
@@ -1163,7 +1163,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 41,
     "broker": "Bajaj Financial Securities Ltd.",
     "activeClients": 65587,
-    "marketShare": 0.15,
+    "marketShare": NaN,
     "change": 2.03,
     "history": [
       {
@@ -1192,7 +1192,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 42,
     "broker": "Indiabulls Securities Limited (formerly Known As Dhani Stocks Limited)",
     "activeClients": 59175,
-    "marketShare": 0.13,
+    "marketShare": NaN,
     "change": 3.66,
     "history": [
       {
@@ -1221,7 +1221,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 43,
     "broker": "Jhaveri Securities Limited",
     "activeClients": 58790,
-    "marketShare": 0.13,
+    "marketShare": NaN,
     "change": 1.33,
     "history": [
       {
@@ -1250,7 +1250,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 44,
     "broker": "Master Capital Services Limited",
     "activeClients": 58595,
-    "marketShare": 0.13,
+    "marketShare": NaN,
     "change": 0.5,
     "history": [
       {
@@ -1279,7 +1279,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 45,
     "broker": "Idbi Capital Markets & Securities Ltd.",
     "activeClients": 57746,
-    "marketShare": 0.13,
+    "marketShare": NaN,
     "change": -0.25,
     "history": [
       {
@@ -1308,7 +1308,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 46,
     "broker": "Arihant Capital Markets Limited",
     "activeClients": 54730,
-    "marketShare": 0.12,
+    "marketShare": NaN,
     "change": 1.08,
     "history": [
       {
@@ -1337,7 +1337,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 47,
     "broker": "Bonanza Portfolio Ltd.",
     "activeClients": 53609,
-    "marketShare": 0.12,
+    "marketShare": NaN,
     "change": 1.1,
     "history": [
       {
@@ -1366,7 +1366,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 48,
     "broker": "Samco Securities Limited",
     "activeClients": 53166,
-    "marketShare": 0.12,
+    "marketShare": NaN,
     "change": 1.85,
     "history": [
       {
@@ -1395,7 +1395,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 49,
     "broker": "Globe Capital Market Limited",
     "activeClients": 52849,
-    "marketShare": 0.12,
+    "marketShare": NaN,
     "change": 0.04,
     "history": [
       {
@@ -1424,7 +1424,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 50,
     "broker": "Monarch Networth Capital Limited",
     "activeClients": 50582,
-    "marketShare": 0.11,
+    "marketShare": NaN,
     "change": 1.52,
     "history": [
       {
@@ -1449,7 +1449,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 51,
     "broker": "Integrated Enterprises (india) Private Limited",
     "activeClients": 50474,
-    "marketShare": 0.11,
+    "marketShare": NaN,
     "change": 0.27,
     "history": [
       {
@@ -1478,7 +1478,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 52,
     "broker": "Swastika Investmart Limited",
     "activeClients": 50324,
-    "marketShare": 0.11,
+    "marketShare": NaN,
     "change": 0.52,
     "history": [
       {
@@ -1507,7 +1507,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 53,
     "broker": "Indusind Securities (Reliance Securities Limited)",
     "activeClients": 48869,
-    "marketShare": 0.11,
+    "marketShare": NaN,
     "change": 0.72,
     "history": [
       {
@@ -1532,7 +1532,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 54,
     "broker": "Sushil Financial Services Private Limited",
     "activeClients": 47246,
-    "marketShare": 0.11,
+    "marketShare": NaN,
     "change": 1.13,
     "history": [
       {
@@ -1561,7 +1561,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 55,
     "broker": "Prabhudas Lilladher Pvt. Ltd.",
     "activeClients": 45039,
-    "marketShare": 0.1,
+    "marketShare": NaN,
     "change": 0.46,
     "history": [
       {
@@ -1590,7 +1590,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 56,
     "broker": "South Asian Stocks Ltd. (incredstocko.in)",
     "activeClients": 41057,
-    "marketShare": 0.09,
+    "marketShare": NaN,
     "change": 27.7,
     "history": [
       {
@@ -1615,7 +1615,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 57,
     "broker": "Flattrade Broking Private Limited",
     "activeClients": 40239,
-    "marketShare": 0.09,
+    "marketShare": NaN,
     "change": 1.67,
     "history": [
       {
@@ -1644,7 +1644,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 58,
     "broker": "Others",
     "activeClients": 37457,
-    "marketShare": 0.08,
+    "marketShare": NaN,
     "change": -96.53,
     "history": [
       {
@@ -1673,7 +1673,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 59,
     "broker": "Univest Stock Broking Private Limited",
     "activeClients": 36105,
-    "marketShare": 0.08,
+    "marketShare": NaN,
     "change": 6.94,
     "history": [
       {
@@ -1702,7 +1702,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 60,
     "broker": "Marketwolf Securities Private Limited",
     "activeClients": 34054,
-    "marketShare": 0.08,
+    "marketShare": NaN,
     "change": -1.98,
     "history": [
       {
@@ -1727,7 +1727,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 61,
     "broker": "Econo Broking Private Limited",
     "activeClients": 32963,
-    "marketShare": 0.07,
+    "marketShare": NaN,
     "change": 1.78,
     "history": [
       {
@@ -1744,7 +1744,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 62,
     "broker": "Shri Parasram Holdings Pvt. Ltd.",
     "activeClients": 32632,
-    "marketShare": 0.07,
+    "marketShare": NaN,
     "change": 0.44,
     "history": [
       {
@@ -1769,7 +1769,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 63,
     "broker": "Aionion Capital Market Services Private Limited",
     "activeClients": 31238,
-    "marketShare": 0.07,
+    "marketShare": NaN,
     "change": 1.31,
     "history": [
       {
@@ -1786,7 +1786,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 64,
     "broker": "Lakshmishree Investment & Securities Pvt. Ltd.",
     "activeClients": 26545,
-    "marketShare": 0.06,
+    "marketShare": NaN,
     "change": 1.17,
     "history": [
       {
@@ -1807,7 +1807,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 65,
     "broker": "Eureka Stock & Share Broking Services Limited",
     "activeClients": 26468,
-    "marketShare": 0.06,
+    "marketShare": NaN,
     "change": 0.36,
     "history": [
       {
@@ -1836,7 +1836,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 66,
     "broker": "Shriram Insight Share Brokers Limited",
     "activeClients": 25716,
-    "marketShare": 0.06,
+    "marketShare": NaN,
     "change": 0.32,
     "history": [
       {
@@ -1865,7 +1865,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 67,
     "broker": "Profitmart Securities Private Limited",
     "activeClients": 25149,
-    "marketShare": 0.06,
+    "marketShare": NaN,
     "change": -0.05,
     "history": [
       {
@@ -1894,7 +1894,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 68,
     "broker": "Lkp Securities Ltd.",
     "activeClients": 23567,
-    "marketShare": 0.05,
+    "marketShare": NaN,
     "change": -0.36,
     "history": [
       {
@@ -1923,7 +1923,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 69,
     "broker": "Way2wealth Brokers Private Limited",
     "activeClients": 22054,
-    "marketShare": 0.05,
+    "marketShare": NaN,
     "change": -0.35,
     "history": [
       {
@@ -1944,7 +1944,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 70,
     "broker": "Goodwill Wealth Management Pvt Ltd",
     "activeClients": 21757,
-    "marketShare": 0.05,
+    "marketShare": NaN,
     "change": -1.67,
     "history": [
       {
@@ -1973,7 +1973,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 71,
     "broker": "Kifs Trade Capital Private Limited",
     "activeClients": 20500,
-    "marketShare": 0.05,
+    "marketShare": NaN,
     "change": 0.76,
     "history": [
       {
@@ -2002,7 +2002,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 72,
     "broker": "Ashika Stock Broking Ltd.",
     "activeClients": 19842,
-    "marketShare": 0.04,
+    "marketShare": NaN,
     "change": 0.61,
     "history": [
       {
@@ -2031,7 +2031,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 73,
     "broker": "B N Rathi Securities Limited",
     "activeClients": 18705,
-    "marketShare": 0.04,
+    "marketShare": NaN,
     "change": 0.88,
     "history": [
       {
@@ -2060,7 +2060,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 74,
     "broker": "Canara Bank Securities Limited",
     "activeClients": 17413,
-    "marketShare": 0.04,
+    "marketShare": NaN,
     "change": 1.84,
     "history": [
       {
@@ -2089,7 +2089,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 75,
     "broker": "Acumen Capital Market (india) Ltd",
     "activeClients": 16321,
-    "marketShare": 0.04,
+    "marketShare": NaN,
     "change": -0.71,
     "history": [
       {
@@ -2118,7 +2118,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 76,
     "broker": "Market Pulse Securities Private Limited",
     "activeClients": 15353,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": -3.39,
     "history": [
       {
@@ -2139,7 +2139,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 77,
     "broker": "Ans Pvt. Ltd.",
     "activeClients": 15289,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 1.86,
     "history": [
       {
@@ -2156,7 +2156,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 78,
     "broker": "Bob Capital Markets Limited",
     "activeClients": 15283,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 5.87,
     "history": [
       {
@@ -2185,7 +2185,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 79,
     "broker": "Navia Markets Ltd.",
     "activeClients": 14951,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 2.55,
     "history": [
       {
@@ -2214,7 +2214,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 80,
     "broker": "Gopocket Invest Tech Private Limited (formerly Known As Sky Commodities India Pvt Ltd)",
     "activeClients": 14943,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": -0.03,
     "history": [
       {
@@ -2243,7 +2243,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 81,
     "broker": "Iss Enterprise Limited",
     "activeClients": 14234,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -2256,7 +2256,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 82,
     "broker": "Bhansali Value Creations Private Limited",
     "activeClients": 14188,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 1.59,
     "history": [
       {
@@ -2273,7 +2273,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 83,
     "broker": "Alankit Imaginations Limited",
     "activeClients": 13638,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0.43,
     "history": [
       {
@@ -2290,7 +2290,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 84,
     "broker": "Finwizard Technology Private Limited",
     "activeClients": 13270,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": -5.13,
     "history": [
       {
@@ -2319,7 +2319,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 85,
     "broker": "Rudra Shares & Stock Brokers Ltd",
     "activeClients": 12994,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0.81,
     "history": [
       {
@@ -2348,7 +2348,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 86,
     "broker": "Bp Equities Private Limited",
     "activeClients": 12546,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0.93,
     "history": [
       {
@@ -2377,7 +2377,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 87,
     "broker": "Bgse Financials Limited",
     "activeClients": 12340,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0.28,
     "history": [
       {
@@ -2406,7 +2406,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 88,
     "broker": "Indbank Merchant Banking Services Ltd.",
     "activeClients": 12287,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 0.13,
     "history": [
       {
@@ -2435,7 +2435,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 89,
     "broker": "Astha Credit & Securities (p) Ltd",
     "activeClients": 11917,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": -0.13,
     "history": [
       {
@@ -2456,7 +2456,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 90,
     "broker": "Tradejini Financial Services Pvt Ltd",
     "activeClients": 11521,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": -0.06,
     "history": [
       {
@@ -2477,7 +2477,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 91,
     "broker": "Pravin Ratilal Share And Stock Brokers Ltd",
     "activeClients": 11409,
-    "marketShare": 0.03,
+    "marketShare": NaN,
     "change": 1.22,
     "history": [
       {
@@ -2494,7 +2494,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 92,
     "broker": "Inventure Growth & Securities Limited",
     "activeClients": 11187,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0.5,
     "history": [
       {
@@ -2515,7 +2515,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 93,
     "broker": "Enrich Financial Market Private Limited",
     "activeClients": 10759,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 2.03,
     "history": [
       {
@@ -2544,7 +2544,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 94,
     "broker": "Trustline Securities Limited",
     "activeClients": 10566,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": -0.15,
     "history": [
       {
@@ -2569,7 +2569,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 95,
     "broker": "Kunvarji Finstock Pvt. Ltd.",
     "activeClients": 10453,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": -0.06,
     "history": [
       {
@@ -2594,7 +2594,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 96,
     "broker": "Jk Securities Pvt. Ltd.",
     "activeClients": 10151,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 1.07,
     "history": [
       {
@@ -2619,7 +2619,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 97,
     "broker": "Pocketful Fintech Capital Private Limited",
     "activeClients": 10096,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 96.96,
     "history": [
       {
@@ -2648,7 +2648,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 98,
     "broker": "Gepl Capital Private Limited",
     "activeClients": 9963,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0.39,
     "history": [
       {
@@ -2673,7 +2673,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 99,
     "broker": "Indira Securities Private Limited",
     "activeClients": 9569,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -2686,7 +2686,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 100,
     "broker": "Standard Chartered Securities (india) Limited",
     "activeClients": 9036,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -2699,7 +2699,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 101,
     "broker": "Share India Securities Limited",
     "activeClients": 8668,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 1.05,
     "history": [
       {
@@ -2728,7 +2728,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 102,
     "broker": "Adroit Financial Services Private Limited",
     "activeClients": 8235,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0.45,
     "history": [
       {
@@ -2745,7 +2745,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 103,
     "broker": "Sunidhi Securities & Finance Limited",
     "activeClients": 7816,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -2758,7 +2758,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 104,
     "broker": "Definedge Securities Broking Private Limited",
     "activeClients": 7376,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 3.23,
     "history": [
       {
@@ -2779,7 +2779,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 105,
     "broker": "Wealthyin Broking Private Limited",
     "activeClients": 6988,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 5.54,
     "history": [
       {
@@ -2808,7 +2808,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 106,
     "broker": "Smifs Limited",
     "activeClients": 6842,
-    "marketShare": 0.02,
+    "marketShare": NaN,
     "change": 3.93,
     "history": [
       {
@@ -2837,7 +2837,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 107,
     "broker": "Capstocks & Securities (india) Private Limited",
     "activeClients": 6613,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -2850,7 +2850,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 108,
     "broker": "Prithvi Finmart Private Limited",
     "activeClients": 6529,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -0.38,
     "history": [
       {
@@ -2879,7 +2879,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 109,
     "broker": "Sunlight Broking Llp",
     "activeClients": 6452,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.81,
     "history": [
       {
@@ -2900,7 +2900,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 110,
     "broker": "R K Global Shares & Securities Limited",
     "activeClients": 6340,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.46,
     "history": [
       {
@@ -2929,7 +2929,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 111,
     "broker": "Mintcap Brokers Private Limited",
     "activeClients": 6299,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 5.97,
     "history": [
       {
@@ -2958,7 +2958,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 112,
     "broker": "Mangal Keshav Financial Services Llp",
     "activeClients": 5697,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.8,
     "history": [
       {
@@ -2987,7 +2987,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 113,
     "broker": "Elite Wealth Limited",
     "activeClients": 5527,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 4.86,
     "history": [
       {
@@ -3016,7 +3016,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 114,
     "broker": "Raghunandan Capital Private Limited",
     "activeClients": 5423,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.91,
     "history": [
       {
@@ -3045,7 +3045,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 115,
     "broker": "Rikhav Securities Limited",
     "activeClients": 5210,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.4,
     "history": [
       {
@@ -3070,7 +3070,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 116,
     "broker": "Zanskar Securities Private Limited",
     "activeClients": 4872,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 29.33,
     "history": [
       {
@@ -3095,7 +3095,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 117,
     "broker": "India Advantage Securities Private Limited",
     "activeClients": 4490,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -0.07,
     "history": [
       {
@@ -3116,7 +3116,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 118,
     "broker": "Peerless Securities Limited",
     "activeClients": 4428,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -0.25,
     "history": [
       {
@@ -3145,7 +3145,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 119,
     "broker": "Tradeswift Broking Private Limited",
     "activeClients": 4143,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.78,
     "history": [
       {
@@ -3170,7 +3170,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 120,
     "broker": "Pace Stock Broking Services Private Limited",
     "activeClients": 4130,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -1.08,
     "history": [
       {
@@ -3191,7 +3191,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 121,
     "broker": "Zuari Finserv Limited",
     "activeClients": 4041,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.9,
     "history": [
       {
@@ -3212,7 +3212,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 122,
     "broker": "Muthoot Securities Ltd.",
     "activeClients": 3803,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -3225,7 +3225,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 123,
     "broker": "Ifci Financial Services Limited",
     "activeClients": 3613,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 4.6,
     "history": [
       {
@@ -3242,7 +3242,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 124,
     "broker": "Arham Wealth Management Pvt Ltd",
     "activeClients": 3285,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 2.75,
     "history": [
       {
@@ -3271,7 +3271,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 125,
     "broker": "Julius Baer Wealth Advisors (india) Private Limited",
     "activeClients": 3241,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -3284,7 +3284,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 126,
     "broker": "Ashlar Securities Private Limited",
     "activeClients": 3189,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -0.06,
     "history": [
       {
@@ -3313,7 +3313,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 127,
     "broker": "Kantilal Chhaganlal Securities Private Limited",
     "activeClients": 3158,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 1.09,
     "history": [
       {
@@ -3342,7 +3342,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 128,
     "broker": "Kedia Capital Services Private Limited",
     "activeClients": 2730,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 1.75,
     "history": [
       {
@@ -3359,7 +3359,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 129,
     "broker": "Centrum Finverse Limited",
     "activeClients": 2710,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 8.44,
     "history": [
       {
@@ -3384,7 +3384,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 130,
     "broker": "Ats Share Brokers Private Limited",
     "activeClients": 2708,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 3.28,
     "history": [
       {
@@ -3413,7 +3413,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 131,
     "broker": "Mse Financial Services Ltd.",
     "activeClients": 2652,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -4.98,
     "history": [
       {
@@ -3434,7 +3434,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 132,
     "broker": "Navkar Share & Stock Brokers Private Limited",
     "activeClients": 2587,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0.47,
     "history": [
       {
@@ -3459,7 +3459,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 133,
     "broker": "Skp Securities Ltd.",
     "activeClients": 2383,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -3472,7 +3472,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 134,
     "broker": "Mandot Securities Private Limited",
     "activeClients": 2272,
-    "marketShare": 0.01,
+    "marketShare": NaN,
     "change": -4.5,
     "history": [
       {
@@ -3497,7 +3497,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 135,
     "broker": "Centrum Broking Limited",
     "activeClients": 2243,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -6.03,
     "history": [
       {
@@ -3526,7 +3526,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 136,
     "broker": "Greshma Shares & Stocks Limited",
     "activeClients": 2193,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.5,
     "history": [
       {
@@ -3555,7 +3555,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 137,
     "broker": "Balaji Equities Ltd.",
     "activeClients": 2046,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.05,
     "history": [
       {
@@ -3576,7 +3576,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 138,
     "broker": "Ajcon Global Services Limited",
     "activeClients": 2045,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.58,
     "history": [
       {
@@ -3601,7 +3601,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 139,
     "broker": "Ghalla Bhansali Stock Brokers Private Limited",
     "activeClients": 1957,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.2,
     "history": [
       {
@@ -3622,7 +3622,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 140,
     "broker": "Nikunj Stock Brokers Ltd.",
     "activeClients": 1906,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.95,
     "history": [
       {
@@ -3639,7 +3639,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 141,
     "broker": "Ski Capital Services Ltd.",
     "activeClients": 1683,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.24,
     "history": [
       {
@@ -3668,7 +3668,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 142,
     "broker": "Dealmoney Commodities Pvt. Ltd.",
     "activeClients": 1498,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -6.49,
     "history": [
       {
@@ -3697,7 +3697,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 143,
     "broker": "Ambalal Shares And Stocks Private Limited",
     "activeClients": 1488,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.2,
     "history": [
       {
@@ -3718,7 +3718,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 144,
     "broker": "Frr Shares And Securities Limited",
     "activeClients": 1443,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.28,
     "history": [
       {
@@ -3739,7 +3739,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 145,
     "broker": "Fair Intermediate Investment Pvt. Ltd.",
     "activeClients": 1425,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.7,
     "history": [
       {
@@ -3768,7 +3768,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 146,
     "broker": "Bondbazaar Securities Private Limited",
     "activeClients": 1406,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.15,
     "history": [
       {
@@ -3785,7 +3785,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 147,
     "broker": "Abhipra Capital Limited",
     "activeClients": 1238,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.88,
     "history": [
       {
@@ -3802,7 +3802,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 148,
     "broker": "Interactive Brokers (india) Private Limited",
     "activeClients": 1100,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.18,
     "history": [
       {
@@ -3831,7 +3831,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 149,
     "broker": "Hensex Securities Private Limited",
     "activeClients": 1076,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -27.35,
     "history": [
       {
@@ -3852,7 +3852,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 150,
     "broker": "Uae Exchange & Finance Ltd.",
     "activeClients": 1001,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -3.66,
     "history": [
       {
@@ -3881,7 +3881,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 151,
     "broker": "Aum Securities Private Ltd.",
     "activeClients": 891,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.67,
     "history": [
       {
@@ -3902,7 +3902,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 152,
     "broker": "Nnm Securities Pvt. Ltd.",
     "activeClients": 885,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.34,
     "history": [
       {
@@ -3919,7 +3919,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 153,
     "broker": "Achintya Securities Limited",
     "activeClients": 759,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.88,
     "history": [
       {
@@ -3944,7 +3944,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 154,
     "broker": "Baljit Securities Pvt. Ltd.",
     "activeClients": 742,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -0.54,
     "history": [
       {
@@ -3969,7 +3969,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 155,
     "broker": "Kedia Shares & Stocks Brokers Limited",
     "activeClients": 701,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.29,
     "history": [
       {
@@ -3994,7 +3994,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 156,
     "broker": "Lalkar Securities Private Limited",
     "activeClients": 667,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.33,
     "history": [
       {
@@ -4019,7 +4019,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 157,
     "broker": "Neo Wealth Management Private Limited",
     "activeClients": 643,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4032,7 +4032,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 158,
     "broker": "Nuvama Wealth Management Limited",
     "activeClients": 621,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4057,7 +4057,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 159,
     "broker": "Stockology Securities Private Limited",
     "activeClients": 548,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 28.04,
     "history": [
       {
@@ -4082,7 +4082,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 160,
     "broker": "Marck Securities Pvt. Ltd.",
     "activeClients": 485,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.42,
     "history": [
       {
@@ -4111,7 +4111,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 161,
     "broker": "Morgan Stanley India Company Private Limited",
     "activeClients": 401,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.78,
     "history": [
       {
@@ -4132,7 +4132,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 162,
     "broker": "Growth Securities Private Limited",
     "activeClients": 328,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.86,
     "history": [
       {
@@ -4157,7 +4157,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 163,
     "broker": "Hsbc Securities & Capital Markets (india) Pvt. Ltd.",
     "activeClients": 254,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.55,
     "history": [
       {
@@ -4182,7 +4182,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 164,
     "broker": "Barclays Securities (india) Private Limited",
     "activeClients": 240,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.69,
     "history": [
       {
@@ -4207,7 +4207,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 165,
     "broker": "Multigain Securities Services Pvt. Ltd.",
     "activeClients": 187,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4232,7 +4232,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 166,
     "broker": "Sunshine Stock Broking Private Limited",
     "activeClients": 182,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 1.68,
     "history": [
       {
@@ -4261,7 +4261,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 167,
     "broker": "Munoth Financial Services Ltd.",
     "activeClients": 178,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4274,7 +4274,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 168,
     "broker": "Dyna Wegmans Securities Limited",
     "activeClients": 173,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4287,7 +4287,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 169,
     "broker": "Nirmal Bang Equities Private Limited",
     "activeClients": 153,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 2.0,
     "history": [
       {
@@ -4316,7 +4316,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 170,
     "broker": "Avendus Wealth Management Private Limited",
     "activeClients": 138,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 26.61,
     "history": [
       {
@@ -4341,7 +4341,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 171,
     "broker": "Fortune Capital Services",
     "activeClients": 105,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4362,7 +4362,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 172,
     "broker": "Svcm Securities Private Limited",
     "activeClients": 87,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -4.4,
     "history": [
       {
@@ -4379,7 +4379,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 173,
     "broker": "New Berry Capitals Private Limited",
     "activeClients": 81,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 6.58,
     "history": [
       {
@@ -4408,7 +4408,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 174,
     "broker": "Arete Securities Limited",
     "activeClients": 78,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -1.27,
     "history": [
       {
@@ -4437,7 +4437,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 175,
     "broker": "Singhal Capital Services Ltd.",
     "activeClients": 72,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -6.49,
     "history": [
       {
@@ -4466,7 +4466,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 176,
     "broker": "Ksn Credence Commodities Trading Private Limited",
     "activeClients": 71,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 4.41,
     "history": [
       {
@@ -4495,7 +4495,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 177,
     "broker": "Integra Securities Private Limited",
     "activeClients": 56,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4508,7 +4508,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 178,
     "broker": "Maheshwari Equity Services (p) Limited",
     "activeClients": 51,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -3.77,
     "history": [
       {
@@ -4537,7 +4537,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 179,
     "broker": "Dynamic Equities Private Limited",
     "activeClients": 41,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 5.13,
     "history": [
       {
@@ -4554,7 +4554,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 180,
     "broker": "Shri Ram Commodities",
     "activeClients": 36,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -2.7,
     "history": [
       {
@@ -4575,7 +4575,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 181,
     "broker": "Khosla Tradewise Private Limited",
     "activeClients": 33,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4592,7 +4592,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 182,
     "broker": "Dhan Stock & Share Brokers Pvt. Ltd.",
     "activeClients": 25,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0,
     "history": [
       {
@@ -4617,7 +4617,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 183,
     "broker": "Junomoneta Finsol Private Limited",
     "activeClients": 23,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 21.05,
     "history": [
       {
@@ -4642,7 +4642,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 184,
     "broker": "Bajaj Share & Stock Brokers Pvt. Ltd",
     "activeClients": 20,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": -4.76,
     "history": [
       {
@@ -4667,7 +4667,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 185,
     "broker": "Share India Algoplus Private Limited",
     "activeClients": 20,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 33.33,
     "history": [
       {
@@ -4696,7 +4696,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 186,
     "broker": "Kifs Broking Private Limited",
     "activeClients": 6,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 20.0,
     "history": [
       {
@@ -4717,7 +4717,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 187,
     "broker": "Icici Bank Ltd.",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4746,7 +4746,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 188,
     "broker": "Union Bank Of India",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4775,7 +4775,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 189,
     "broker": "Citadel Securities India Markets Private Limited",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4796,7 +4796,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 190,
     "broker": "Finsol Securities Private Limited",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4821,7 +4821,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 191,
     "broker": "Axis Bank Ltd.",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4842,7 +4842,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 192,
     "broker": "Punjab National Bank",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4863,7 +4863,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 193,
     "broker": "State Bank Of India",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {
@@ -4884,7 +4884,7 @@ export const BROKER_LEADERBOARD = [
     "rank": 194,
     "broker": "Stockfield Financial Services Private Limited",
     "activeClients": 1,
-    "marketShare": 0.0,
+    "marketShare": NaN,
     "change": 0.0,
     "history": [
       {

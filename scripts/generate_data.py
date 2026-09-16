@@ -63,6 +63,20 @@ def to_num(v):
     return float(v)
 
 
+def to_percent(v):
+    if not is_valid(v):
+        return None
+    if isinstance(v, str):
+        text = v.strip().replace("%", "")
+        try:
+            number = float(text)
+        except ValueError:
+            return None
+        return number
+    number = float(v)
+    return number * 100 if -1 <= number <= 1 else number
+
+
 # ────────────────────────── broker leaderboard ──────────────────────────
 
 def build_broker_leaderboard(xl):
@@ -84,8 +98,11 @@ def build_broker_leaderboard(xl):
         for _, value in month_columns
     ]
     data = df.iloc[2:].copy()
+    market_share_column = month_columns[-1][0] + 2
+    market_share_values = data.iloc[:, market_share_column].apply(to_percent)
     data = data.iloc[:, :len(month_columns) + 1]
     data.columns = ["broker", *[f"m{index + 1}" for index in range(len(month_columns))]]
+    data["excelMarketShare"] = market_share_values.to_numpy()
     month_names = [f"m{index + 1}" for index in range(len(month_columns))]
     for month_name in month_names:
         data[month_name + "_num"] = data[month_name].apply(to_num)
@@ -115,7 +132,10 @@ def build_broker_leaderboard(xl):
             "rank": i + 1,
             "broker": name,
             "activeClients": int(latest),
-            "marketShare": round(latest / total_latest * 100, 2),
+            "marketShare": round(
+                row["excelMarketShare"] if row["excelMarketShare"] is not None else latest / total_latest * 100,
+                2,
+            ),
             "change": change,
             "history": history,
         })
