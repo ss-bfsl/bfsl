@@ -10,9 +10,9 @@ export const BROKER_LEADERBOARD = [
   {
     "rank": 1,
     "broker": "Groww Invest Tech Private Limited",
-    "activeClients": 0,
-    "marketShare": 32.85,
-    "change": -100.0,
+    "activeClients": 13347233,
+    "marketShare": 29.68,
+    "change": 1.7,
     "history": [
       {
         "month": "Apr 2026",
@@ -33,23 +33,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 13347233
-      },
-      {
-        "month": "Diff",
-        "value": 223362
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 2,
     "broker": "Zerodha Broking Limited",
-    "activeClients": 0,
-    "marketShare": 16.54,
-    "change": -100.0,
+    "activeClients": 6796854,
+    "marketShare": 15.12,
+    "change": 0.51,
     "history": [
       {
         "month": "Apr 2026",
@@ -70,23 +62,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 6796854
-      },
-      {
-        "month": "Diff",
-        "value": 34501
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 3,
     "broker": "Angel One Limited",
-    "activeClients": 0,
-    "marketShare": 16.54,
-    "change": -100.0,
+    "activeClients": 6718755,
+    "marketShare": 14.94,
+    "change": 1.28,
     "history": [
       {
         "month": "Apr 2026",
@@ -107,23 +91,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 6718755
-      },
-      {
-        "month": "Diff",
-        "value": 84636
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 4,
     "broker": "Icici Securities Limited",
-    "activeClients": 0,
-    "marketShare": 5.3,
-    "change": -100.0,
+    "activeClients": 2156209,
+    "marketShare": 4.8,
+    "change": 1.1,
     "history": [
       {
         "month": "Apr 2026",
@@ -144,23 +120,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 2156209
-      },
-      {
-        "month": "Diff",
-        "value": 23385
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 5,
     "broker": "Upstox Securities Private Limited",
-    "activeClients": 0,
-    "marketShare": 4.59,
-    "change": -100.0,
+    "activeClients": 1864628,
+    "marketShare": 4.15,
+    "change": 0.2,
     "history": [
       {
         "month": "Apr 2026",
@@ -181,23 +149,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 1864628
-      },
-      {
-        "month": "Diff",
-        "value": 3749
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 6,
     "broker": "Kotak Securities Ltd.",
-    "activeClients": 0,
-    "marketShare": 3.43,
-    "change": -100.0,
+    "activeClients": 1391663,
+    "marketShare": 3.1,
+    "change": 0.68,
     "history": [
       {
         "month": "Apr 2026",
@@ -218,23 +178,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 1391663
-      },
-      {
-        "month": "Diff",
-        "value": 9440
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 7,
     "broker": "Hdfc Securities Ltd.",
-    "activeClients": 0,
-    "marketShare": 3.33,
-    "change": -100.0,
+    "activeClients": 1351311,
+    "marketShare": 3.01,
+    "change": 1.21,
     "history": [
       {
         "month": "Apr 2026",
@@ -255,23 +207,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 1351311
-      },
-      {
-        "month": "Diff",
-        "value": 16198
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 8,
     "broker": "Raise Securities Private Limited (dhan App)( formerly Known As Moneylicious Securities Private Limited)",
-    "activeClients": 0,
-    "marketShare": 2.73,
-    "change": -100.0,
+    "activeClients": 1107277,
+    "marketShare": 2.46,
+    "change": 1.82,
     "history": [
       {
         "month": "Apr 2026",
@@ -292,23 +236,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 1107277
-      },
-      {
-        "month": "Diff",
-        "value": 19818
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 9,
     "broker": "Sbicap Securities Limited",
-    "activeClients": 0,
-    "marketShare": 2.57,
-    "change": 0,
+    "activeClients": 1043820,
+    "marketShare": 2.32,
+    "change": -2.46,
     "history": [
       {
         "month": "Apr 2026",
@@ -329,19 +265,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 1043820
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 10,
     "broker": "Motilal Oswal Financial Services Limited",
-    "activeClients": 0,
-    "marketShare": 2.23,
-    "change": -100.0,
+    "activeClients": 906005,
+    "marketShare": 2.01,
+    "change": 1.01,
     "history": [
       {
         "month": "Apr 2026",
@@ -362,23 +294,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 906005
-      },
-      {
-        "month": "Diff",
-        "value": 9017
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 11,
     "broker": "Paytm Money Ltd.",
-    "activeClients": 0,
-    "marketShare": 1.95,
-    "change": 0,
+    "activeClients": 790743,
+    "marketShare": 1.76,
+    "change": -1.14,
     "history": [
       {
         "month": "Apr 2026",
@@ -399,19 +323,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 790743
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 12,
     "broker": "Indstocks Private Limited",
-    "activeClients": 0,
-    "marketShare": 1.75,
-    "change": -100.0,
+    "activeClients": 713655,
+    "marketShare": 1.59,
+    "change": 1.11,
     "history": [
       {
         "month": "Apr 2026",
@@ -432,23 +352,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 713655
-      },
-      {
-        "month": "Diff",
-        "value": 7805
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 13,
     "broker": "Sharekhan Ltd.",
-    "activeClients": 0,
-    "marketShare": 1.3,
-    "change": -100.0,
+    "activeClients": 527565,
+    "marketShare": 1.17,
+    "change": 0.83,
     "history": [
       {
         "month": "Apr 2026",
@@ -469,23 +381,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 527565
-      },
-      {
-        "month": "Diff",
-        "value": 4337
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 14,
     "broker": "Axis Securities Limited",
-    "activeClients": 0,
-    "marketShare": 1.05,
-    "change": -100.0,
+    "activeClients": 429479,
+    "marketShare": 0.96,
+    "change": 0.35,
     "history": [
       {
         "month": "Apr 2026",
@@ -506,23 +410,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 429479
-      },
-      {
-        "month": "Diff",
-        "value": 1503
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 15,
     "broker": "Iifl Capital Services Ltd.",
-    "activeClients": 0,
-    "marketShare": 0.84,
-    "change": -100.0,
+    "activeClients": 338771,
+    "marketShare": 0.75,
+    "change": 1.59,
     "history": [
       {
         "month": "Apr 2026",
@@ -543,23 +439,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 338771
-      },
-      {
-        "month": "Diff",
-        "value": 5300
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 16,
     "broker": "5paisa Capital Limited",
-    "activeClients": 0,
-    "marketShare": 0.79,
-    "change": -100.0,
+    "activeClients": 321573,
+    "marketShare": 0.72,
+    "change": 1.95,
     "history": [
       {
         "month": "Apr 2026",
@@ -580,23 +468,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 321573
-      },
-      {
-        "month": "Diff",
-        "value": 6161
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 17,
     "broker": "Aaritya Broking Private Ltd (Sahi)",
-    "activeClients": 0,
-    "marketShare": 0.62,
-    "change": -100.0,
+    "activeClients": 252951,
+    "marketShare": 0.56,
+    "change": 10.83,
     "history": [
       {
         "month": "Apr 2026",
@@ -617,23 +497,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 252951
-      },
-      {
-        "month": "Diff",
-        "value": 24718
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 18,
     "broker": "Choice Equity Broking Private Limited",
-    "activeClients": 0,
-    "marketShare": 0.58,
-    "change": 0,
+    "activeClients": 235325,
+    "marketShare": 0.52,
+    "change": -0.23,
     "history": [
       {
         "month": "Apr 2026",
@@ -654,19 +526,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 235325
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 19,
     "broker": "Geojit Investments Limited",
-    "activeClients": 0,
-    "marketShare": 0.52,
-    "change": -100.0,
+    "activeClients": 209373,
+    "marketShare": 0.47,
+    "change": 0.15,
     "history": [
       {
         "month": "Apr 2026",
@@ -687,23 +555,15 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 209373
-      },
-      {
-        "month": "Diff",
-        "value": 320
-      },
-      {
-        "month": "Market Share from July to Aug",
-        "value": 0
       }
     ]
   },
   {
     "rank": 20,
     "broker": "Phonepe Wealth Broking Private Limited",
-    "activeClients": 0,
-    "marketShare": 0.51,
-    "change": -100.0,
+    "activeClients": 205141,
+    "marketShare": 0.46,
+    "change": 2.57,
     "history": [
       {
         "month": "Apr 2026",
@@ -724,14 +584,4316 @@ export const BROKER_LEADERBOARD = [
       {
         "month": "Aug 2026",
         "value": 205141
+      }
+    ]
+  },
+  {
+    "rank": 21,
+    "broker": "Fyers Securities Private Limited",
+    "activeClients": 196429,
+    "marketShare": 0.44,
+    "change": 0.67,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 200810
       },
       {
-        "month": "Diff",
-        "value": 5137
+        "month": "May 2026",
+        "value": 196906
       },
       {
-        "month": "Market Share from July to Aug",
-        "value": 0
+        "month": "Jun 2026",
+        "value": 195684
+      },
+      {
+        "month": "Jul 2026",
+        "value": 195119
+      },
+      {
+        "month": "Aug 2026",
+        "value": 196429
+      }
+    ]
+  },
+  {
+    "rank": 22,
+    "broker": "Mirae Asset Capital Markets ( India ) Private Limited",
+    "activeClients": 191277,
+    "marketShare": 0.43,
+    "change": -2.91,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 232231
+      },
+      {
+        "month": "May 2026",
+        "value": 218110
+      },
+      {
+        "month": "Jun 2026",
+        "value": 205640
+      },
+      {
+        "month": "Jul 2026",
+        "value": 197004
+      },
+      {
+        "month": "Aug 2026",
+        "value": 191277
+      }
+    ]
+  },
+  {
+    "rank": 23,
+    "broker": "Smc Global Securities Ltd.",
+    "activeClients": 159798,
+    "marketShare": 0.36,
+    "change": 0.71,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 160107
+      },
+      {
+        "month": "May 2026",
+        "value": 159440
+      },
+      {
+        "month": "Jun 2026",
+        "value": 159037
+      },
+      {
+        "month": "Jul 2026",
+        "value": 158675
+      },
+      {
+        "month": "Aug 2026",
+        "value": 159798
+      }
+    ]
+  },
+  {
+    "rank": 24,
+    "broker": "Anand Rathi Share And Stock Brokers Limited",
+    "activeClients": 152440,
+    "marketShare": 0.34,
+    "change": 0.97,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 148522
+      },
+      {
+        "month": "May 2026",
+        "value": 150229
+      },
+      {
+        "month": "Jun 2026",
+        "value": 150536
+      },
+      {
+        "month": "Jul 2026",
+        "value": 150979
+      },
+      {
+        "month": "Aug 2026",
+        "value": 152440
+      }
+    ]
+  },
+  {
+    "rank": 25,
+    "broker": "Jainam Broking Limited",
+    "activeClients": 150445,
+    "marketShare": 0.33,
+    "change": 1.96,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 137916
+      },
+      {
+        "month": "May 2026",
+        "value": 139764
+      },
+      {
+        "month": "Jun 2026",
+        "value": 142859
+      },
+      {
+        "month": "Jul 2026",
+        "value": 147559
+      },
+      {
+        "month": "Aug 2026",
+        "value": 150445
+      }
+    ]
+  },
+  {
+    "rank": 26,
+    "broker": "Nuvama Wealth And Investment Limited.",
+    "activeClients": 138989,
+    "marketShare": 0.31,
+    "change": 0.52,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 141361
+      },
+      {
+        "month": "May 2026",
+        "value": 140472
+      },
+      {
+        "month": "Jun 2026",
+        "value": 139547
+      },
+      {
+        "month": "Jul 2026",
+        "value": 138269
+      },
+      {
+        "month": "Aug 2026",
+        "value": 138989
+      }
+    ]
+  },
+  {
+    "rank": 27,
+    "broker": "Nirmal Bang Securities Pvt. Ltd.",
+    "activeClients": 135770,
+    "marketShare": 0.3,
+    "change": 0.69,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 135763
+      },
+      {
+        "month": "May 2026",
+        "value": 135939
+      },
+      {
+        "month": "Jun 2026",
+        "value": 135568
+      },
+      {
+        "month": "Jul 2026",
+        "value": 134846
+      },
+      {
+        "month": "Aug 2026",
+        "value": 135770
+      }
+    ]
+  },
+  {
+    "rank": 28,
+    "broker": "Nu Investors Technologies Private Limited (lemonn)",
+    "activeClients": 134637,
+    "marketShare": 0.3,
+    "change": 16.66,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 67432
+      },
+      {
+        "month": "May 2026",
+        "value": 78929
+      },
+      {
+        "month": "Jun 2026",
+        "value": 97793
+      },
+      {
+        "month": "Jul 2026",
+        "value": 115409
+      },
+      {
+        "month": "Aug 2026",
+        "value": 134637
+      }
+    ]
+  },
+  {
+    "rank": 29,
+    "broker": "Marwadi Shares And Finance Limited",
+    "activeClients": 130489,
+    "marketShare": 0.29,
+    "change": 1.37,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 129249
+      },
+      {
+        "month": "Jun 2026",
+        "value": 128998
+      },
+      {
+        "month": "Jul 2026",
+        "value": 128725
+      },
+      {
+        "month": "Aug 2026",
+        "value": 130489
+      }
+    ]
+  },
+  {
+    "rank": 30,
+    "broker": "Religare Broking Limited",
+    "activeClients": 129369,
+    "marketShare": 0.29,
+    "change": -2.05,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 136847
+      },
+      {
+        "month": "May 2026",
+        "value": 135953
+      },
+      {
+        "month": "Jun 2026",
+        "value": 134914
+      },
+      {
+        "month": "Jul 2026",
+        "value": 132076
+      },
+      {
+        "month": "Aug 2026",
+        "value": 129369
+      }
+    ]
+  },
+  {
+    "rank": 31,
+    "broker": "Jm Financial Services Limited",
+    "activeClients": 113671,
+    "marketShare": 0.25,
+    "change": 0.49,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 114615
+      },
+      {
+        "month": "May 2026",
+        "value": 114277
+      },
+      {
+        "month": "Jun 2026",
+        "value": 113946
+      },
+      {
+        "month": "Jul 2026",
+        "value": 113113
+      },
+      {
+        "month": "Aug 2026",
+        "value": 113671
+      }
+    ]
+  },
+  {
+    "rank": 32,
+    "broker": "Ventura Securities Limited",
+    "activeClients": 99576,
+    "marketShare": 0.22,
+    "change": 0.79,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 99589
+      },
+      {
+        "month": "Jun 2026",
+        "value": 99205
+      },
+      {
+        "month": "Jul 2026",
+        "value": 98797
+      },
+      {
+        "month": "Aug 2026",
+        "value": 99576
+      }
+    ]
+  },
+  {
+    "rank": 33,
+    "broker": "Yes Securities (india) Limited",
+    "activeClients": 95661,
+    "marketShare": 0.21,
+    "change": 1.15,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 92923
+      },
+      {
+        "month": "May 2026",
+        "value": 94318
+      },
+      {
+        "month": "Jun 2026",
+        "value": 94921
+      },
+      {
+        "month": "Jul 2026",
+        "value": 94569
+      },
+      {
+        "month": "Aug 2026",
+        "value": 95661
+      }
+    ]
+  },
+  {
+    "rank": 34,
+    "broker": "Alice Blue Fin Svcs P Ltd",
+    "activeClients": 95042,
+    "marketShare": 0.21,
+    "change": 1.01,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 93621
+      },
+      {
+        "month": "May 2026",
+        "value": 94158
+      },
+      {
+        "month": "Jun 2026",
+        "value": 94434
+      },
+      {
+        "month": "Jul 2026",
+        "value": 94092
+      },
+      {
+        "month": "Aug 2026",
+        "value": 95042
+      }
+    ]
+  },
+  {
+    "rank": 35,
+    "broker": "Finvasia Securities Private Limited",
+    "activeClients": 93517,
+    "marketShare": 0.21,
+    "change": -0.35,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 98418
+      },
+      {
+        "month": "May 2026",
+        "value": 97036
+      },
+      {
+        "month": "Jun 2026",
+        "value": 95404
+      },
+      {
+        "month": "Jul 2026",
+        "value": 93846
+      },
+      {
+        "month": "Aug 2026",
+        "value": 93517
+      }
+    ]
+  },
+  {
+    "rank": 36,
+    "broker": "Moneywise Finvest Limited (Stoxkart)",
+    "activeClients": 80710,
+    "marketShare": 0.18,
+    "change": 2.17,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 66717
+      },
+      {
+        "month": "May 2026",
+        "value": 70840
+      },
+      {
+        "month": "Jun 2026",
+        "value": 75621
+      },
+      {
+        "month": "Jul 2026",
+        "value": 78995
+      },
+      {
+        "month": "Aug 2026",
+        "value": 80710
+      }
+    ]
+  },
+  {
+    "rank": 37,
+    "broker": "Tradebulls Securities (p) Ltd.",
+    "activeClients": 77966,
+    "marketShare": 0.17,
+    "change": 0.84,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 78034
+      },
+      {
+        "month": "May 2026",
+        "value": 77846
+      },
+      {
+        "month": "Jun 2026",
+        "value": 77775
+      },
+      {
+        "month": "Jul 2026",
+        "value": 77318
+      },
+      {
+        "month": "Aug 2026",
+        "value": 77966
+      }
+    ]
+  },
+  {
+    "rank": 38,
+    "broker": "Nj India Invest Private Limited",
+    "activeClients": 74320,
+    "marketShare": 0.17,
+    "change": 1.34,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 74762
+      },
+      {
+        "month": "May 2026",
+        "value": 74247
+      },
+      {
+        "month": "Jun 2026",
+        "value": 73606
+      },
+      {
+        "month": "Jul 2026",
+        "value": 73336
+      },
+      {
+        "month": "Aug 2026",
+        "value": 74320
+      }
+    ]
+  },
+  {
+    "rank": 39,
+    "broker": "Stockholding Services Limited",
+    "activeClients": 73251,
+    "marketShare": 0.16,
+    "change": 0.22,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 75976
+      },
+      {
+        "month": "May 2026",
+        "value": 74852
+      },
+      {
+        "month": "Jun 2026",
+        "value": 74490
+      },
+      {
+        "month": "Jul 2026",
+        "value": 73093
+      },
+      {
+        "month": "Aug 2026",
+        "value": 73251
+      }
+    ]
+  },
+  {
+    "rank": 40,
+    "broker": "Aditya Birla Money Limited",
+    "activeClients": 68323,
+    "marketShare": 0.15,
+    "change": 0.67,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 68417
+      },
+      {
+        "month": "May 2026",
+        "value": 68170
+      },
+      {
+        "month": "Jun 2026",
+        "value": 68006
+      },
+      {
+        "month": "Jul 2026",
+        "value": 67870
+      },
+      {
+        "month": "Aug 2026",
+        "value": 68323
+      }
+    ]
+  },
+  {
+    "rank": 41,
+    "broker": "Bajaj Financial Securities Ltd.",
+    "activeClients": 65587,
+    "marketShare": 0.15,
+    "change": 2.03,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 60870
+      },
+      {
+        "month": "May 2026",
+        "value": 61502
+      },
+      {
+        "month": "Jun 2026",
+        "value": 62948
+      },
+      {
+        "month": "Jul 2026",
+        "value": 64284
+      },
+      {
+        "month": "Aug 2026",
+        "value": 65587
+      }
+    ]
+  },
+  {
+    "rank": 42,
+    "broker": "Indiabulls Securities Limited (formerly Known As Dhani Stocks Limited)",
+    "activeClients": 59175,
+    "marketShare": 0.13,
+    "change": 3.66,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 50875
+      },
+      {
+        "month": "May 2026",
+        "value": 55255
+      },
+      {
+        "month": "Jun 2026",
+        "value": 56834
+      },
+      {
+        "month": "Jul 2026",
+        "value": 57087
+      },
+      {
+        "month": "Aug 2026",
+        "value": 59175
+      }
+    ]
+  },
+  {
+    "rank": 43,
+    "broker": "Jhaveri Securities Limited",
+    "activeClients": 58790,
+    "marketShare": 0.13,
+    "change": 1.33,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 58508
+      },
+      {
+        "month": "May 2026",
+        "value": 58384
+      },
+      {
+        "month": "Jun 2026",
+        "value": 58061
+      },
+      {
+        "month": "Jul 2026",
+        "value": 58016
+      },
+      {
+        "month": "Aug 2026",
+        "value": 58790
+      }
+    ]
+  },
+  {
+    "rank": 44,
+    "broker": "Master Capital Services Limited",
+    "activeClients": 58595,
+    "marketShare": 0.13,
+    "change": 0.5,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 59213
+      },
+      {
+        "month": "May 2026",
+        "value": 59002
+      },
+      {
+        "month": "Jun 2026",
+        "value": 58689
+      },
+      {
+        "month": "Jul 2026",
+        "value": 58303
+      },
+      {
+        "month": "Aug 2026",
+        "value": 58595
+      }
+    ]
+  },
+  {
+    "rank": 45,
+    "broker": "Idbi Capital Markets & Securities Ltd.",
+    "activeClients": 57746,
+    "marketShare": 0.13,
+    "change": -0.25,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 58332
+      },
+      {
+        "month": "May 2026",
+        "value": 57609
+      },
+      {
+        "month": "Jun 2026",
+        "value": 58672
+      },
+      {
+        "month": "Jul 2026",
+        "value": 57893
+      },
+      {
+        "month": "Aug 2026",
+        "value": 57746
+      }
+    ]
+  },
+  {
+    "rank": 46,
+    "broker": "Arihant Capital Markets Limited",
+    "activeClients": 54730,
+    "marketShare": 0.12,
+    "change": 1.08,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 53173
+      },
+      {
+        "month": "May 2026",
+        "value": 53485
+      },
+      {
+        "month": "Jun 2026",
+        "value": 53914
+      },
+      {
+        "month": "Jul 2026",
+        "value": 54143
+      },
+      {
+        "month": "Aug 2026",
+        "value": 54730
+      }
+    ]
+  },
+  {
+    "rank": 47,
+    "broker": "Bonanza Portfolio Ltd.",
+    "activeClients": 53609,
+    "marketShare": 0.12,
+    "change": 1.1,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 53907
+      },
+      {
+        "month": "May 2026",
+        "value": 53754
+      },
+      {
+        "month": "Jun 2026",
+        "value": 53467
+      },
+      {
+        "month": "Jul 2026",
+        "value": 53024
+      },
+      {
+        "month": "Aug 2026",
+        "value": 53609
+      }
+    ]
+  },
+  {
+    "rank": 48,
+    "broker": "Samco Securities Limited",
+    "activeClients": 53166,
+    "marketShare": 0.12,
+    "change": 1.85,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 50359
+      },
+      {
+        "month": "May 2026",
+        "value": 49201
+      },
+      {
+        "month": "Jun 2026",
+        "value": 48322
+      },
+      {
+        "month": "Jul 2026",
+        "value": 52198
+      },
+      {
+        "month": "Aug 2026",
+        "value": 53166
+      }
+    ]
+  },
+  {
+    "rank": 49,
+    "broker": "Globe Capital Market Limited",
+    "activeClients": 52849,
+    "marketShare": 0.12,
+    "change": 0.04,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 54618
+      },
+      {
+        "month": "May 2026",
+        "value": 54061
+      },
+      {
+        "month": "Jun 2026",
+        "value": 53628
+      },
+      {
+        "month": "Jul 2026",
+        "value": 52829
+      },
+      {
+        "month": "Aug 2026",
+        "value": 52849
+      }
+    ]
+  },
+  {
+    "rank": 50,
+    "broker": "Monarch Networth Capital Limited",
+    "activeClients": 50582,
+    "marketShare": 0.11,
+    "change": 1.52,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 49852
+      },
+      {
+        "month": "Jun 2026",
+        "value": 49948
+      },
+      {
+        "month": "Jul 2026",
+        "value": 49825
+      },
+      {
+        "month": "Aug 2026",
+        "value": 50582
+      }
+    ]
+  },
+  {
+    "rank": 51,
+    "broker": "Integrated Enterprises (india) Private Limited",
+    "activeClients": 50474,
+    "marketShare": 0.11,
+    "change": 0.27,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 50631
+      },
+      {
+        "month": "May 2026",
+        "value": 50328
+      },
+      {
+        "month": "Jun 2026",
+        "value": 50212
+      },
+      {
+        "month": "Jul 2026",
+        "value": 50340
+      },
+      {
+        "month": "Aug 2026",
+        "value": 50474
+      }
+    ]
+  },
+  {
+    "rank": 52,
+    "broker": "Swastika Investmart Limited",
+    "activeClients": 50324,
+    "marketShare": 0.11,
+    "change": 0.52,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 52199
+      },
+      {
+        "month": "May 2026",
+        "value": 51417
+      },
+      {
+        "month": "Jun 2026",
+        "value": 50618
+      },
+      {
+        "month": "Jul 2026",
+        "value": 50066
+      },
+      {
+        "month": "Aug 2026",
+        "value": 50324
+      }
+    ]
+  },
+  {
+    "rank": 53,
+    "broker": "Indusind Securities (Reliance Securities Limited)",
+    "activeClients": 48869,
+    "marketShare": 0.11,
+    "change": 0.72,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 49090
+      },
+      {
+        "month": "May 2026",
+        "value": 48841
+      },
+      {
+        "month": "Jul 2026",
+        "value": 48520
+      },
+      {
+        "month": "Aug 2026",
+        "value": 48869
+      }
+    ]
+  },
+  {
+    "rank": 54,
+    "broker": "Sushil Financial Services Private Limited",
+    "activeClients": 47246,
+    "marketShare": 0.11,
+    "change": 1.13,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 46756
+      },
+      {
+        "month": "May 2026",
+        "value": 46908
+      },
+      {
+        "month": "Jun 2026",
+        "value": 46989
+      },
+      {
+        "month": "Jul 2026",
+        "value": 46717
+      },
+      {
+        "month": "Aug 2026",
+        "value": 47246
+      }
+    ]
+  },
+  {
+    "rank": 55,
+    "broker": "Prabhudas Lilladher Pvt. Ltd.",
+    "activeClients": 45039,
+    "marketShare": 0.1,
+    "change": 0.46,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 45080
+      },
+      {
+        "month": "May 2026",
+        "value": 45054
+      },
+      {
+        "month": "Jun 2026",
+        "value": 45034
+      },
+      {
+        "month": "Jul 2026",
+        "value": 44833
+      },
+      {
+        "month": "Aug 2026",
+        "value": 45039
+      }
+    ]
+  },
+  {
+    "rank": 56,
+    "broker": "South Asian Stocks Ltd. (incredstocko.in)",
+    "activeClients": 41057,
+    "marketShare": 0.09,
+    "change": 27.7,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 13659
+      },
+      {
+        "month": "Jun 2026",
+        "value": 17543
+      },
+      {
+        "month": "Jul 2026",
+        "value": 32150
+      },
+      {
+        "month": "Aug 2026",
+        "value": 41057
+      }
+    ]
+  },
+  {
+    "rank": 57,
+    "broker": "Flattrade Broking Private Limited",
+    "activeClients": 40239,
+    "marketShare": 0.09,
+    "change": 1.67,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 38116
+      },
+      {
+        "month": "May 2026",
+        "value": 38450
+      },
+      {
+        "month": "Jun 2026",
+        "value": 38969
+      },
+      {
+        "month": "Jul 2026",
+        "value": 39578
+      },
+      {
+        "month": "Aug 2026",
+        "value": 40239
+      }
+    ]
+  },
+  {
+    "rank": 58,
+    "broker": "Others",
+    "activeClients": 37457,
+    "marketShare": 0.08,
+    "change": -96.53,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1778504
+      },
+      {
+        "month": "May 2026",
+        "value": 1356333
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1218372
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1080883
+      },
+      {
+        "month": "Aug 2026",
+        "value": 37457
+      }
+    ]
+  },
+  {
+    "rank": 59,
+    "broker": "Univest Stock Broking Private Limited",
+    "activeClients": 36105,
+    "marketShare": 0.08,
+    "change": 6.94,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 30548
+      },
+      {
+        "month": "May 2026",
+        "value": 31296
+      },
+      {
+        "month": "Jun 2026",
+        "value": 32576
+      },
+      {
+        "month": "Jul 2026",
+        "value": 33761
+      },
+      {
+        "month": "Aug 2026",
+        "value": 36105
+      }
+    ]
+  },
+  {
+    "rank": 60,
+    "broker": "Marketwolf Securities Private Limited",
+    "activeClients": 34054,
+    "marketShare": 0.08,
+    "change": -1.98,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 32514
+      },
+      {
+        "month": "Jun 2026",
+        "value": 34550
+      },
+      {
+        "month": "Jul 2026",
+        "value": 34741
+      },
+      {
+        "month": "Aug 2026",
+        "value": 34054
+      }
+    ]
+  },
+  {
+    "rank": 61,
+    "broker": "Econo Broking Private Limited",
+    "activeClients": 32963,
+    "marketShare": 0.07,
+    "change": 1.78,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 32386
+      },
+      {
+        "month": "Aug 2026",
+        "value": 32963
+      }
+    ]
+  },
+  {
+    "rank": 62,
+    "broker": "Shri Parasram Holdings Pvt. Ltd.",
+    "activeClients": 32632,
+    "marketShare": 0.07,
+    "change": 0.44,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 32971
+      },
+      {
+        "month": "Jun 2026",
+        "value": 32905
+      },
+      {
+        "month": "Jul 2026",
+        "value": 32490
+      },
+      {
+        "month": "Aug 2026",
+        "value": 32632
+      }
+    ]
+  },
+  {
+    "rank": 63,
+    "broker": "Aionion Capital Market Services Private Limited",
+    "activeClients": 31238,
+    "marketShare": 0.07,
+    "change": 1.31,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 30834
+      },
+      {
+        "month": "Aug 2026",
+        "value": 31238
+      }
+    ]
+  },
+  {
+    "rank": 64,
+    "broker": "Lakshmishree Investment & Securities Pvt. Ltd.",
+    "activeClients": 26545,
+    "marketShare": 0.06,
+    "change": 1.17,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 26275
+      },
+      {
+        "month": "Jul 2026",
+        "value": 26238
+      },
+      {
+        "month": "Aug 2026",
+        "value": 26545
+      }
+    ]
+  },
+  {
+    "rank": 65,
+    "broker": "Eureka Stock & Share Broking Services Limited",
+    "activeClients": 26468,
+    "marketShare": 0.06,
+    "change": 0.36,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 26956
+      },
+      {
+        "month": "May 2026",
+        "value": 26821
+      },
+      {
+        "month": "Jun 2026",
+        "value": 26470
+      },
+      {
+        "month": "Jul 2026",
+        "value": 26373
+      },
+      {
+        "month": "Aug 2026",
+        "value": 26468
+      }
+    ]
+  },
+  {
+    "rank": 66,
+    "broker": "Shriram Insight Share Brokers Limited",
+    "activeClients": 25716,
+    "marketShare": 0.06,
+    "change": 0.32,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 26334
+      },
+      {
+        "month": "May 2026",
+        "value": 26111
+      },
+      {
+        "month": "Jun 2026",
+        "value": 25924
+      },
+      {
+        "month": "Jul 2026",
+        "value": 25634
+      },
+      {
+        "month": "Aug 2026",
+        "value": 25716
+      }
+    ]
+  },
+  {
+    "rank": 67,
+    "broker": "Profitmart Securities Private Limited",
+    "activeClients": 25149,
+    "marketShare": 0.06,
+    "change": -0.05,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 26625
+      },
+      {
+        "month": "May 2026",
+        "value": 26193
+      },
+      {
+        "month": "Jun 2026",
+        "value": 25712
+      },
+      {
+        "month": "Jul 2026",
+        "value": 25161
+      },
+      {
+        "month": "Aug 2026",
+        "value": 25149
+      }
+    ]
+  },
+  {
+    "rank": 68,
+    "broker": "Lkp Securities Ltd.",
+    "activeClients": 23567,
+    "marketShare": 0.05,
+    "change": -0.36,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 24548
+      },
+      {
+        "month": "May 2026",
+        "value": 24268
+      },
+      {
+        "month": "Jun 2026",
+        "value": 24232
+      },
+      {
+        "month": "Jul 2026",
+        "value": 23651
+      },
+      {
+        "month": "Aug 2026",
+        "value": 23567
+      }
+    ]
+  },
+  {
+    "rank": 69,
+    "broker": "Way2wealth Brokers Private Limited",
+    "activeClients": 22054,
+    "marketShare": 0.05,
+    "change": -0.35,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 22385
+      },
+      {
+        "month": "Jul 2026",
+        "value": 22132
+      },
+      {
+        "month": "Aug 2026",
+        "value": 22054
+      }
+    ]
+  },
+  {
+    "rank": 70,
+    "broker": "Goodwill Wealth Management Pvt Ltd",
+    "activeClients": 21757,
+    "marketShare": 0.05,
+    "change": -1.67,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 23795
+      },
+      {
+        "month": "May 2026",
+        "value": 23274
+      },
+      {
+        "month": "Jun 2026",
+        "value": 22849
+      },
+      {
+        "month": "Jul 2026",
+        "value": 22126
+      },
+      {
+        "month": "Aug 2026",
+        "value": 21757
+      }
+    ]
+  },
+  {
+    "rank": 71,
+    "broker": "Kifs Trade Capital Private Limited",
+    "activeClients": 20500,
+    "marketShare": 0.05,
+    "change": 0.76,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 20524
+      },
+      {
+        "month": "May 2026",
+        "value": 20482
+      },
+      {
+        "month": "Jun 2026",
+        "value": 20459
+      },
+      {
+        "month": "Jul 2026",
+        "value": 20346
+      },
+      {
+        "month": "Aug 2026",
+        "value": 20500
+      }
+    ]
+  },
+  {
+    "rank": 72,
+    "broker": "Ashika Stock Broking Ltd.",
+    "activeClients": 19842,
+    "marketShare": 0.04,
+    "change": 0.61,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 20087
+      },
+      {
+        "month": "May 2026",
+        "value": 20054
+      },
+      {
+        "month": "Jun 2026",
+        "value": 20101
+      },
+      {
+        "month": "Jul 2026",
+        "value": 19722
+      },
+      {
+        "month": "Aug 2026",
+        "value": 19842
+      }
+    ]
+  },
+  {
+    "rank": 73,
+    "broker": "B N Rathi Securities Limited",
+    "activeClients": 18705,
+    "marketShare": 0.04,
+    "change": 0.88,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 18607
+      },
+      {
+        "month": "May 2026",
+        "value": 18697
+      },
+      {
+        "month": "Jun 2026",
+        "value": 18682
+      },
+      {
+        "month": "Jul 2026",
+        "value": 18541
+      },
+      {
+        "month": "Aug 2026",
+        "value": 18705
+      }
+    ]
+  },
+  {
+    "rank": 74,
+    "broker": "Canara Bank Securities Limited",
+    "activeClients": 17413,
+    "marketShare": 0.04,
+    "change": 1.84,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 17361
+      },
+      {
+        "month": "May 2026",
+        "value": 17157
+      },
+      {
+        "month": "Jun 2026",
+        "value": 17090
+      },
+      {
+        "month": "Jul 2026",
+        "value": 17099
+      },
+      {
+        "month": "Aug 2026",
+        "value": 17413
+      }
+    ]
+  },
+  {
+    "rank": 75,
+    "broker": "Acumen Capital Market (india) Ltd",
+    "activeClients": 16321,
+    "marketShare": 0.04,
+    "change": -0.71,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 17123
+      },
+      {
+        "month": "May 2026",
+        "value": 16921
+      },
+      {
+        "month": "Jun 2026",
+        "value": 16709
+      },
+      {
+        "month": "Jul 2026",
+        "value": 16437
+      },
+      {
+        "month": "Aug 2026",
+        "value": 16321
+      }
+    ]
+  },
+  {
+    "rank": 76,
+    "broker": "Market Pulse Securities Private Limited",
+    "activeClients": 15353,
+    "marketShare": 0.03,
+    "change": -3.39,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 16646
+      },
+      {
+        "month": "Jul 2026",
+        "value": 15891
+      },
+      {
+        "month": "Aug 2026",
+        "value": 15353
+      }
+    ]
+  },
+  {
+    "rank": 77,
+    "broker": "Ans Pvt. Ltd.",
+    "activeClients": 15289,
+    "marketShare": 0.03,
+    "change": 1.86,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 15010
+      },
+      {
+        "month": "Aug 2026",
+        "value": 15289
+      }
+    ]
+  },
+  {
+    "rank": 78,
+    "broker": "Bob Capital Markets Limited",
+    "activeClients": 15283,
+    "marketShare": 0.03,
+    "change": 5.87,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 15524
+      },
+      {
+        "month": "May 2026",
+        "value": 15041
+      },
+      {
+        "month": "Jun 2026",
+        "value": 14722
+      },
+      {
+        "month": "Jul 2026",
+        "value": 14436
+      },
+      {
+        "month": "Aug 2026",
+        "value": 15283
+      }
+    ]
+  },
+  {
+    "rank": 79,
+    "broker": "Navia Markets Ltd.",
+    "activeClients": 14951,
+    "marketShare": 0.03,
+    "change": 2.55,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 14335
+      },
+      {
+        "month": "May 2026",
+        "value": 14367
+      },
+      {
+        "month": "Jun 2026",
+        "value": 14323
+      },
+      {
+        "month": "Jul 2026",
+        "value": 14579
+      },
+      {
+        "month": "Aug 2026",
+        "value": 14951
+      }
+    ]
+  },
+  {
+    "rank": 80,
+    "broker": "Gopocket Invest Tech Private Limited (formerly Known As Sky Commodities India Pvt Ltd)",
+    "activeClients": 14943,
+    "marketShare": 0.03,
+    "change": -0.03,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 14900
+      },
+      {
+        "month": "May 2026",
+        "value": 14915
+      },
+      {
+        "month": "Jun 2026",
+        "value": 15026
+      },
+      {
+        "month": "Jul 2026",
+        "value": 14948
+      },
+      {
+        "month": "Aug 2026",
+        "value": 14943
+      }
+    ]
+  },
+  {
+    "rank": 81,
+    "broker": "Iss Enterprise Limited",
+    "activeClients": 14234,
+    "marketShare": 0.03,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 14234
+      }
+    ]
+  },
+  {
+    "rank": 82,
+    "broker": "Bhansali Value Creations Private Limited",
+    "activeClients": 14188,
+    "marketShare": 0.03,
+    "change": 1.59,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 13966
+      },
+      {
+        "month": "Aug 2026",
+        "value": 14188
+      }
+    ]
+  },
+  {
+    "rank": 83,
+    "broker": "Alankit Imaginations Limited",
+    "activeClients": 13638,
+    "marketShare": 0.03,
+    "change": 0.43,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 13579
+      },
+      {
+        "month": "Aug 2026",
+        "value": 13638
+      }
+    ]
+  },
+  {
+    "rank": 84,
+    "broker": "Finwizard Technology Private Limited",
+    "activeClients": 13270,
+    "marketShare": 0.03,
+    "change": -5.13,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 16494
+      },
+      {
+        "month": "May 2026",
+        "value": 15795
+      },
+      {
+        "month": "Jun 2026",
+        "value": 14913
+      },
+      {
+        "month": "Jul 2026",
+        "value": 13988
+      },
+      {
+        "month": "Aug 2026",
+        "value": 13270
+      }
+    ]
+  },
+  {
+    "rank": 85,
+    "broker": "Rudra Shares & Stock Brokers Ltd",
+    "activeClients": 12994,
+    "marketShare": 0.03,
+    "change": 0.81,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 13037
+      },
+      {
+        "month": "May 2026",
+        "value": 13015
+      },
+      {
+        "month": "Jun 2026",
+        "value": 12911
+      },
+      {
+        "month": "Jul 2026",
+        "value": 12889
+      },
+      {
+        "month": "Aug 2026",
+        "value": 12994
+      }
+    ]
+  },
+  {
+    "rank": 86,
+    "broker": "Bp Equities Private Limited",
+    "activeClients": 12546,
+    "marketShare": 0.03,
+    "change": 0.93,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 12608
+      },
+      {
+        "month": "May 2026",
+        "value": 12587
+      },
+      {
+        "month": "Jun 2026",
+        "value": 12544
+      },
+      {
+        "month": "Jul 2026",
+        "value": 12431
+      },
+      {
+        "month": "Aug 2026",
+        "value": 12546
+      }
+    ]
+  },
+  {
+    "rank": 87,
+    "broker": "Bgse Financials Limited",
+    "activeClients": 12340,
+    "marketShare": 0.03,
+    "change": 0.28,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 12614
+      },
+      {
+        "month": "May 2026",
+        "value": 12578
+      },
+      {
+        "month": "Jun 2026",
+        "value": 12445
+      },
+      {
+        "month": "Jul 2026",
+        "value": 12306
+      },
+      {
+        "month": "Aug 2026",
+        "value": 12340
+      }
+    ]
+  },
+  {
+    "rank": 88,
+    "broker": "Indbank Merchant Banking Services Ltd.",
+    "activeClients": 12287,
+    "marketShare": 0.03,
+    "change": 0.13,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 12808
+      },
+      {
+        "month": "May 2026",
+        "value": 12621
+      },
+      {
+        "month": "Jun 2026",
+        "value": 12457
+      },
+      {
+        "month": "Jul 2026",
+        "value": 12271
+      },
+      {
+        "month": "Aug 2026",
+        "value": 12287
+      }
+    ]
+  },
+  {
+    "rank": 89,
+    "broker": "Astha Credit & Securities (p) Ltd",
+    "activeClients": 11917,
+    "marketShare": 0.03,
+    "change": -0.13,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 12112
+      },
+      {
+        "month": "Jul 2026",
+        "value": 11932
+      },
+      {
+        "month": "Aug 2026",
+        "value": 11917
+      }
+    ]
+  },
+  {
+    "rank": 90,
+    "broker": "Tradejini Financial Services Pvt Ltd",
+    "activeClients": 11521,
+    "marketShare": 0.03,
+    "change": -0.06,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 11591
+      },
+      {
+        "month": "Jul 2026",
+        "value": 11528
+      },
+      {
+        "month": "Aug 2026",
+        "value": 11521
+      }
+    ]
+  },
+  {
+    "rank": 91,
+    "broker": "Pravin Ratilal Share And Stock Brokers Ltd",
+    "activeClients": 11409,
+    "marketShare": 0.03,
+    "change": 1.22,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 11272
+      },
+      {
+        "month": "Aug 2026",
+        "value": 11409
+      }
+    ]
+  },
+  {
+    "rank": 92,
+    "broker": "Inventure Growth & Securities Limited",
+    "activeClients": 11187,
+    "marketShare": 0.02,
+    "change": 0.5,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 11275
+      },
+      {
+        "month": "Jul 2026",
+        "value": 11131
+      },
+      {
+        "month": "Aug 2026",
+        "value": 11187
+      }
+    ]
+  },
+  {
+    "rank": 93,
+    "broker": "Enrich Financial Market Private Limited",
+    "activeClients": 10759,
+    "marketShare": 0.02,
+    "change": 2.03,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 10645
+      },
+      {
+        "month": "May 2026",
+        "value": 10459
+      },
+      {
+        "month": "Jun 2026",
+        "value": 10347
+      },
+      {
+        "month": "Jul 2026",
+        "value": 10545
+      },
+      {
+        "month": "Aug 2026",
+        "value": 10759
+      }
+    ]
+  },
+  {
+    "rank": 94,
+    "broker": "Trustline Securities Limited",
+    "activeClients": 10566,
+    "marketShare": 0.02,
+    "change": -0.15,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 10906
+      },
+      {
+        "month": "Jun 2026",
+        "value": 10761
+      },
+      {
+        "month": "Jul 2026",
+        "value": 10582
+      },
+      {
+        "month": "Aug 2026",
+        "value": 10566
+      }
+    ]
+  },
+  {
+    "rank": 95,
+    "broker": "Kunvarji Finstock Pvt. Ltd.",
+    "activeClients": 10453,
+    "marketShare": 0.02,
+    "change": -0.06,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 10775
+      },
+      {
+        "month": "Jun 2026",
+        "value": 10667
+      },
+      {
+        "month": "Jul 2026",
+        "value": 10459
+      },
+      {
+        "month": "Aug 2026",
+        "value": 10453
+      }
+    ]
+  },
+  {
+    "rank": 96,
+    "broker": "Jk Securities Pvt. Ltd.",
+    "activeClients": 10151,
+    "marketShare": 0.02,
+    "change": 1.07,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 10072
+      },
+      {
+        "month": "Jun 2026",
+        "value": 10042
+      },
+      {
+        "month": "Jul 2026",
+        "value": 10044
+      },
+      {
+        "month": "Aug 2026",
+        "value": 10151
+      }
+    ]
+  },
+  {
+    "rank": 97,
+    "broker": "Pocketful Fintech Capital Private Limited",
+    "activeClients": 10096,
+    "marketShare": 0.02,
+    "change": 96.96,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 2466
+      },
+      {
+        "month": "May 2026",
+        "value": 2699
+      },
+      {
+        "month": "Jun 2026",
+        "value": 3303
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5126
+      },
+      {
+        "month": "Aug 2026",
+        "value": 10096
+      }
+    ]
+  },
+  {
+    "rank": 98,
+    "broker": "Gepl Capital Private Limited",
+    "activeClients": 9963,
+    "marketShare": 0.02,
+    "change": 0.39,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 9859
+      },
+      {
+        "month": "Jun 2026",
+        "value": 9910
+      },
+      {
+        "month": "Jul 2026",
+        "value": 9924
+      },
+      {
+        "month": "Aug 2026",
+        "value": 9963
+      }
+    ]
+  },
+  {
+    "rank": 99,
+    "broker": "Indira Securities Private Limited",
+    "activeClients": 9569,
+    "marketShare": 0.02,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 9569
+      }
+    ]
+  },
+  {
+    "rank": 100,
+    "broker": "Standard Chartered Securities (india) Limited",
+    "activeClients": 9036,
+    "marketShare": 0.02,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 9036
+      }
+    ]
+  },
+  {
+    "rank": 101,
+    "broker": "Share India Securities Limited",
+    "activeClients": 8668,
+    "marketShare": 0.02,
+    "change": 1.05,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 8292
+      },
+      {
+        "month": "May 2026",
+        "value": 8410
+      },
+      {
+        "month": "Jun 2026",
+        "value": 8494
+      },
+      {
+        "month": "Jul 2026",
+        "value": 8578
+      },
+      {
+        "month": "Aug 2026",
+        "value": 8668
+      }
+    ]
+  },
+  {
+    "rank": 102,
+    "broker": "Adroit Financial Services Private Limited",
+    "activeClients": 8235,
+    "marketShare": 0.02,
+    "change": 0.45,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 8198
+      },
+      {
+        "month": "Aug 2026",
+        "value": 8235
+      }
+    ]
+  },
+  {
+    "rank": 103,
+    "broker": "Sunidhi Securities & Finance Limited",
+    "activeClients": 7816,
+    "marketShare": 0.02,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 7816
+      }
+    ]
+  },
+  {
+    "rank": 104,
+    "broker": "Definedge Securities Broking Private Limited",
+    "activeClients": 7376,
+    "marketShare": 0.02,
+    "change": 3.23,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 6968
+      },
+      {
+        "month": "Jul 2026",
+        "value": 7145
+      },
+      {
+        "month": "Aug 2026",
+        "value": 7376
+      }
+    ]
+  },
+  {
+    "rank": 105,
+    "broker": "Wealthyin Broking Private Limited",
+    "activeClients": 6988,
+    "marketShare": 0.02,
+    "change": 5.54,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 5924
+      },
+      {
+        "month": "May 2026",
+        "value": 6106
+      },
+      {
+        "month": "Jun 2026",
+        "value": 6343
+      },
+      {
+        "month": "Jul 2026",
+        "value": 6621
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6988
+      }
+    ]
+  },
+  {
+    "rank": 106,
+    "broker": "Smifs Limited",
+    "activeClients": 6842,
+    "marketShare": 0.02,
+    "change": 3.93,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 5913
+      },
+      {
+        "month": "May 2026",
+        "value": 6042
+      },
+      {
+        "month": "Jun 2026",
+        "value": 6271
+      },
+      {
+        "month": "Jul 2026",
+        "value": 6583
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6842
+      }
+    ]
+  },
+  {
+    "rank": 107,
+    "broker": "Capstocks & Securities (india) Private Limited",
+    "activeClients": 6613,
+    "marketShare": 0.01,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 6613
+      }
+    ]
+  },
+  {
+    "rank": 108,
+    "broker": "Prithvi Finmart Private Limited",
+    "activeClients": 6529,
+    "marketShare": 0.01,
+    "change": -0.38,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 6659
+      },
+      {
+        "month": "May 2026",
+        "value": 6653
+      },
+      {
+        "month": "Jun 2026",
+        "value": 6615
+      },
+      {
+        "month": "Jul 2026",
+        "value": 6554
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6529
+      }
+    ]
+  },
+  {
+    "rank": 109,
+    "broker": "Sunlight Broking Llp",
+    "activeClients": 6452,
+    "marketShare": 0.01,
+    "change": 0.81,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 6505
+      },
+      {
+        "month": "Jul 2026",
+        "value": 6400
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6452
+      }
+    ]
+  },
+  {
+    "rank": 110,
+    "broker": "R K Global Shares & Securities Limited",
+    "activeClients": 6340,
+    "marketShare": 0.01,
+    "change": 0.46,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 6516
+      },
+      {
+        "month": "May 2026",
+        "value": 6476
+      },
+      {
+        "month": "Jun 2026",
+        "value": 6385
+      },
+      {
+        "month": "Jul 2026",
+        "value": 6311
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6340
+      }
+    ]
+  },
+  {
+    "rank": 111,
+    "broker": "Mintcap Brokers Private Limited",
+    "activeClients": 6299,
+    "marketShare": 0.01,
+    "change": 5.97,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1044
+      },
+      {
+        "month": "May 2026",
+        "value": 2511
+      },
+      {
+        "month": "Jun 2026",
+        "value": 4334
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5944
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6299
+      }
+    ]
+  },
+  {
+    "rank": 112,
+    "broker": "Mangal Keshav Financial Services Llp",
+    "activeClients": 5697,
+    "marketShare": 0.01,
+    "change": 0.8,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 5793
+      },
+      {
+        "month": "May 2026",
+        "value": 5770
+      },
+      {
+        "month": "Jun 2026",
+        "value": 5737
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5652
+      },
+      {
+        "month": "Aug 2026",
+        "value": 5697
+      }
+    ]
+  },
+  {
+    "rank": 113,
+    "broker": "Elite Wealth Limited",
+    "activeClients": 5527,
+    "marketShare": 0.01,
+    "change": 4.86,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 4737
+      },
+      {
+        "month": "May 2026",
+        "value": 4943
+      },
+      {
+        "month": "Jun 2026",
+        "value": 5125
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5271
+      },
+      {
+        "month": "Aug 2026",
+        "value": 5527
+      }
+    ]
+  },
+  {
+    "rank": 114,
+    "broker": "Raghunandan Capital Private Limited",
+    "activeClients": 5423,
+    "marketShare": 0.01,
+    "change": 0.91,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 5151
+      },
+      {
+        "month": "May 2026",
+        "value": 5233
+      },
+      {
+        "month": "Jun 2026",
+        "value": 5312
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5374
+      },
+      {
+        "month": "Aug 2026",
+        "value": 5423
+      }
+    ]
+  },
+  {
+    "rank": 115,
+    "broker": "Rikhav Securities Limited",
+    "activeClients": 5210,
+    "marketShare": 0.01,
+    "change": 0.4,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 5228
+      },
+      {
+        "month": "Jun 2026",
+        "value": 5256
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5189
+      },
+      {
+        "month": "Aug 2026",
+        "value": 5210
+      }
+    ]
+  },
+  {
+    "rank": 116,
+    "broker": "Zanskar Securities Private Limited",
+    "activeClients": 4872,
+    "marketShare": 0.01,
+    "change": 29.33,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 3390
+      },
+      {
+        "month": "Jun 2026",
+        "value": 3452
+      },
+      {
+        "month": "Jul 2026",
+        "value": 3767
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4872
+      }
+    ]
+  },
+  {
+    "rank": 117,
+    "broker": "India Advantage Securities Private Limited",
+    "activeClients": 4490,
+    "marketShare": 0.01,
+    "change": -0.07,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 4521
+      },
+      {
+        "month": "Jul 2026",
+        "value": 4493
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4490
+      }
+    ]
+  },
+  {
+    "rank": 118,
+    "broker": "Peerless Securities Limited",
+    "activeClients": 4428,
+    "marketShare": 0.01,
+    "change": -0.25,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 4716
+      },
+      {
+        "month": "May 2026",
+        "value": 4684
+      },
+      {
+        "month": "Jun 2026",
+        "value": 4637
+      },
+      {
+        "month": "Jul 2026",
+        "value": 4439
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4428
+      }
+    ]
+  },
+  {
+    "rank": 119,
+    "broker": "Tradeswift Broking Private Limited",
+    "activeClients": 4143,
+    "marketShare": 0.01,
+    "change": 0.78,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 4198
+      },
+      {
+        "month": "Jun 2026",
+        "value": 4158
+      },
+      {
+        "month": "Jul 2026",
+        "value": 4111
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4143
+      }
+    ]
+  },
+  {
+    "rank": 120,
+    "broker": "Pace Stock Broking Services Private Limited",
+    "activeClients": 4130,
+    "marketShare": 0.01,
+    "change": -1.08,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 4306
+      },
+      {
+        "month": "Jul 2026",
+        "value": 4175
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4130
+      }
+    ]
+  },
+  {
+    "rank": 121,
+    "broker": "Zuari Finserv Limited",
+    "activeClients": 4041,
+    "marketShare": 0.01,
+    "change": 0.9,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 4046
+      },
+      {
+        "month": "Jul 2026",
+        "value": 4005
+      },
+      {
+        "month": "Aug 2026",
+        "value": 4041
+      }
+    ]
+  },
+  {
+    "rank": 122,
+    "broker": "Muthoot Securities Ltd.",
+    "activeClients": 3803,
+    "marketShare": 0.01,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 3803
+      }
+    ]
+  },
+  {
+    "rank": 123,
+    "broker": "Ifci Financial Services Limited",
+    "activeClients": 3613,
+    "marketShare": 0.01,
+    "change": 4.6,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 3454
+      },
+      {
+        "month": "Aug 2026",
+        "value": 3613
+      }
+    ]
+  },
+  {
+    "rank": 124,
+    "broker": "Arham Wealth Management Pvt Ltd",
+    "activeClients": 3285,
+    "marketShare": 0.01,
+    "change": 2.75,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 3091
+      },
+      {
+        "month": "May 2026",
+        "value": 3138
+      },
+      {
+        "month": "Jun 2026",
+        "value": 3172
+      },
+      {
+        "month": "Jul 2026",
+        "value": 3197
+      },
+      {
+        "month": "Aug 2026",
+        "value": 3285
+      }
+    ]
+  },
+  {
+    "rank": 125,
+    "broker": "Julius Baer Wealth Advisors (india) Private Limited",
+    "activeClients": 3241,
+    "marketShare": 0.01,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 3241
+      }
+    ]
+  },
+  {
+    "rank": 126,
+    "broker": "Ashlar Securities Private Limited",
+    "activeClients": 3189,
+    "marketShare": 0.01,
+    "change": -0.06,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 3341
+      },
+      {
+        "month": "May 2026",
+        "value": 3305
+      },
+      {
+        "month": "Jun 2026",
+        "value": 3250
+      },
+      {
+        "month": "Jul 2026",
+        "value": 3191
+      },
+      {
+        "month": "Aug 2026",
+        "value": 3189
+      }
+    ]
+  },
+  {
+    "rank": 127,
+    "broker": "Kantilal Chhaganlal Securities Private Limited",
+    "activeClients": 3158,
+    "marketShare": 0.01,
+    "change": 1.09,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 3136
+      },
+      {
+        "month": "May 2026",
+        "value": 3132
+      },
+      {
+        "month": "Jun 2026",
+        "value": 3117
+      },
+      {
+        "month": "Jul 2026",
+        "value": 3124
+      },
+      {
+        "month": "Aug 2026",
+        "value": 3158
+      }
+    ]
+  },
+  {
+    "rank": 128,
+    "broker": "Kedia Capital Services Private Limited",
+    "activeClients": 2730,
+    "marketShare": 0.01,
+    "change": 1.75,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 2683
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2730
+      }
+    ]
+  },
+  {
+    "rank": 129,
+    "broker": "Centrum Finverse Limited",
+    "activeClients": 2710,
+    "marketShare": 0.01,
+    "change": 8.44,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 2002
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2234
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2499
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2710
+      }
+    ]
+  },
+  {
+    "rank": 130,
+    "broker": "Ats Share Brokers Private Limited",
+    "activeClients": 2708,
+    "marketShare": 0.01,
+    "change": 3.28,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 2565
+      },
+      {
+        "month": "May 2026",
+        "value": 2547
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2586
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2622
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2708
+      }
+    ]
+  },
+  {
+    "rank": 131,
+    "broker": "Mse Financial Services Ltd.",
+    "activeClients": 2652,
+    "marketShare": 0.01,
+    "change": -4.98,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 3021
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2791
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2652
+      }
+    ]
+  },
+  {
+    "rank": 132,
+    "broker": "Navkar Share & Stock Brokers Private Limited",
+    "activeClients": 2587,
+    "marketShare": 0.01,
+    "change": 0.47,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 2596
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2588
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2575
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2587
+      }
+    ]
+  },
+  {
+    "rank": 133,
+    "broker": "Skp Securities Ltd.",
+    "activeClients": 2383,
+    "marketShare": 0.01,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 2383
+      }
+    ]
+  },
+  {
+    "rank": 134,
+    "broker": "Mandot Securities Private Limited",
+    "activeClients": 2272,
+    "marketShare": 0.01,
+    "change": -4.5,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 2738
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2579
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2379
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2272
+      }
+    ]
+  },
+  {
+    "rank": 135,
+    "broker": "Centrum Broking Limited",
+    "activeClients": 2243,
+    "marketShare": 0.0,
+    "change": -6.03,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 2817
+      },
+      {
+        "month": "May 2026",
+        "value": 2703
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2559
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2387
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2243
+      }
+    ]
+  },
+  {
+    "rank": 136,
+    "broker": "Greshma Shares & Stocks Limited",
+    "activeClients": 2193,
+    "marketShare": 0.0,
+    "change": 0.5,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 2216
+      },
+      {
+        "month": "May 2026",
+        "value": 2209
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2221
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2182
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2193
+      }
+    ]
+  },
+  {
+    "rank": 137,
+    "broker": "Balaji Equities Ltd.",
+    "activeClients": 2046,
+    "marketShare": 0.0,
+    "change": -0.05,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 2080
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2047
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2046
+      }
+    ]
+  },
+  {
+    "rank": 138,
+    "broker": "Ajcon Global Services Limited",
+    "activeClients": 2045,
+    "marketShare": 0.0,
+    "change": -0.58,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 2135
+      },
+      {
+        "month": "Jun 2026",
+        "value": 2110
+      },
+      {
+        "month": "Jul 2026",
+        "value": 2057
+      },
+      {
+        "month": "Aug 2026",
+        "value": 2045
+      }
+    ]
+  },
+  {
+    "rank": 139,
+    "broker": "Ghalla Bhansali Stock Brokers Private Limited",
+    "activeClients": 1957,
+    "marketShare": 0.0,
+    "change": -0.2,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1996
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1961
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1957
+      }
+    ]
+  },
+  {
+    "rank": 140,
+    "broker": "Nikunj Stock Brokers Ltd.",
+    "activeClients": 1906,
+    "marketShare": 0.0,
+    "change": 0.95,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 1888
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1906
+      }
+    ]
+  },
+  {
+    "rank": 141,
+    "broker": "Ski Capital Services Ltd.",
+    "activeClients": 1683,
+    "marketShare": 0.0,
+    "change": -0.24,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1731
+      },
+      {
+        "month": "May 2026",
+        "value": 1712
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1700
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1687
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1683
+      }
+    ]
+  },
+  {
+    "rank": 142,
+    "broker": "Dealmoney Commodities Pvt. Ltd.",
+    "activeClients": 1498,
+    "marketShare": 0.0,
+    "change": -6.49,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1931
+      },
+      {
+        "month": "May 2026",
+        "value": 1836
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1716
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1602
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1498
+      }
+    ]
+  },
+  {
+    "rank": 143,
+    "broker": "Ambalal Shares And Stocks Private Limited",
+    "activeClients": 1488,
+    "marketShare": 0.0,
+    "change": -1.2,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1535
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1506
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1488
+      }
+    ]
+  },
+  {
+    "rank": 144,
+    "broker": "Frr Shares And Securities Limited",
+    "activeClients": 1443,
+    "marketShare": 0.0,
+    "change": 0.28,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1506
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1439
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1443
+      }
+    ]
+  },
+  {
+    "rank": 145,
+    "broker": "Fair Intermediate Investment Pvt. Ltd.",
+    "activeClients": 1425,
+    "marketShare": 0.0,
+    "change": -0.7,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1479
+      },
+      {
+        "month": "May 2026",
+        "value": 1473
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1468
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1435
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1425
+      }
+    ]
+  },
+  {
+    "rank": 146,
+    "broker": "Bondbazaar Securities Private Limited",
+    "activeClients": 1406,
+    "marketShare": 0.0,
+    "change": 1.15,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 1390
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1406
+      }
+    ]
+  },
+  {
+    "rank": 147,
+    "broker": "Abhipra Capital Limited",
+    "activeClients": 1238,
+    "marketShare": 0.0,
+    "change": -0.88,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 1249
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1238
+      }
+    ]
+  },
+  {
+    "rank": 148,
+    "broker": "Interactive Brokers (india) Private Limited",
+    "activeClients": 1100,
+    "marketShare": 0.0,
+    "change": 0.18,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1073
+      },
+      {
+        "month": "May 2026",
+        "value": 1067
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1082
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1098
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1100
+      }
+    ]
+  },
+  {
+    "rank": 149,
+    "broker": "Hensex Securities Private Limited",
+    "activeClients": 1076,
+    "marketShare": 0.0,
+    "change": -27.35,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1953
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1481
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1076
+      }
+    ]
+  },
+  {
+    "rank": 150,
+    "broker": "Uae Exchange & Finance Ltd.",
+    "activeClients": 1001,
+    "marketShare": 0.0,
+    "change": -3.66,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1195
+      },
+      {
+        "month": "May 2026",
+        "value": 1140
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1098
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1039
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1001
+      }
+    ]
+  },
+  {
+    "rank": 151,
+    "broker": "Aum Securities Private Ltd.",
+    "activeClients": 891,
+    "marketShare": 0.0,
+    "change": -0.67,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 904
+      },
+      {
+        "month": "Jul 2026",
+        "value": 897
+      },
+      {
+        "month": "Aug 2026",
+        "value": 891
+      }
+    ]
+  },
+  {
+    "rank": 152,
+    "broker": "Nnm Securities Pvt. Ltd.",
+    "activeClients": 885,
+    "marketShare": 0.0,
+    "change": -1.34,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 897
+      },
+      {
+        "month": "Aug 2026",
+        "value": 885
+      }
+    ]
+  },
+  {
+    "rank": 153,
+    "broker": "Achintya Securities Limited",
+    "activeClients": 759,
+    "marketShare": 0.0,
+    "change": 1.88,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 727
+      },
+      {
+        "month": "Jun 2026",
+        "value": 735
+      },
+      {
+        "month": "Jul 2026",
+        "value": 745
+      },
+      {
+        "month": "Aug 2026",
+        "value": 759
+      }
+    ]
+  },
+  {
+    "rank": 154,
+    "broker": "Baljit Securities Pvt. Ltd.",
+    "activeClients": 742,
+    "marketShare": 0.0,
+    "change": -0.54,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 763
+      },
+      {
+        "month": "Jun 2026",
+        "value": 753
+      },
+      {
+        "month": "Jul 2026",
+        "value": 746
+      },
+      {
+        "month": "Aug 2026",
+        "value": 742
+      }
+    ]
+  },
+  {
+    "rank": 155,
+    "broker": "Kedia Shares & Stocks Brokers Limited",
+    "activeClients": 701,
+    "marketShare": 0.0,
+    "change": 0.29,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 687
+      },
+      {
+        "month": "Jun 2026",
+        "value": 707
+      },
+      {
+        "month": "Jul 2026",
+        "value": 699
+      },
+      {
+        "month": "Aug 2026",
+        "value": 701
+      }
+    ]
+  },
+  {
+    "rank": 156,
+    "broker": "Lalkar Securities Private Limited",
+    "activeClients": 667,
+    "marketShare": 0.0,
+    "change": -1.33,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 684
+      },
+      {
+        "month": "Jun 2026",
+        "value": 681
+      },
+      {
+        "month": "Jul 2026",
+        "value": 676
+      },
+      {
+        "month": "Aug 2026",
+        "value": 667
+      }
+    ]
+  },
+  {
+    "rank": 157,
+    "broker": "Neo Wealth Management Private Limited",
+    "activeClients": 643,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 643
+      }
+    ]
+  },
+  {
+    "rank": 158,
+    "broker": "Nuvama Wealth Management Limited",
+    "activeClients": 621,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 615
+      },
+      {
+        "month": "May 2026",
+        "value": 616
+      },
+      {
+        "month": "Jun 2026",
+        "value": 623
+      },
+      {
+        "month": "Aug 2026",
+        "value": 621
+      }
+    ]
+  },
+  {
+    "rank": 159,
+    "broker": "Stockology Securities Private Limited",
+    "activeClients": 548,
+    "marketShare": 0.0,
+    "change": 28.04,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 180
+      },
+      {
+        "month": "Jun 2026",
+        "value": 270
+      },
+      {
+        "month": "Jul 2026",
+        "value": 428
+      },
+      {
+        "month": "Aug 2026",
+        "value": 548
+      }
+    ]
+  },
+  {
+    "rank": 160,
+    "broker": "Marck Securities Pvt. Ltd.",
+    "activeClients": 485,
+    "marketShare": 0.0,
+    "change": -1.42,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 527
+      },
+      {
+        "month": "May 2026",
+        "value": 511
+      },
+      {
+        "month": "Jun 2026",
+        "value": 503
+      },
+      {
+        "month": "Jul 2026",
+        "value": 492
+      },
+      {
+        "month": "Aug 2026",
+        "value": 485
+      }
+    ]
+  },
+  {
+    "rank": 161,
+    "broker": "Morgan Stanley India Company Private Limited",
+    "activeClients": 401,
+    "marketShare": 0.0,
+    "change": 1.78,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 390
+      },
+      {
+        "month": "Jul 2026",
+        "value": 394
+      },
+      {
+        "month": "Aug 2026",
+        "value": 401
+      }
+    ]
+  },
+  {
+    "rank": 162,
+    "broker": "Growth Securities Private Limited",
+    "activeClients": 328,
+    "marketShare": 0.0,
+    "change": 1.86,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 325
+      },
+      {
+        "month": "Jun 2026",
+        "value": 323
+      },
+      {
+        "month": "Jul 2026",
+        "value": 322
+      },
+      {
+        "month": "Aug 2026",
+        "value": 328
+      }
+    ]
+  },
+  {
+    "rank": 163,
+    "broker": "Hsbc Securities & Capital Markets (india) Pvt. Ltd.",
+    "activeClients": 254,
+    "marketShare": 0.0,
+    "change": -1.55,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 239
+      },
+      {
+        "month": "Jun 2026",
+        "value": 241
+      },
+      {
+        "month": "Jul 2026",
+        "value": 258
+      },
+      {
+        "month": "Aug 2026",
+        "value": 254
+      }
+    ]
+  },
+  {
+    "rank": 164,
+    "broker": "Barclays Securities (india) Private Limited",
+    "activeClients": 240,
+    "marketShare": 0.0,
+    "change": 1.69,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 227
+      },
+      {
+        "month": "Jun 2026",
+        "value": 229
+      },
+      {
+        "month": "Jul 2026",
+        "value": 236
+      },
+      {
+        "month": "Aug 2026",
+        "value": 240
+      }
+    ]
+  },
+  {
+    "rank": 165,
+    "broker": "Multigain Securities Services Pvt. Ltd.",
+    "activeClients": 187,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 189
+      },
+      {
+        "month": "Jun 2026",
+        "value": 189
+      },
+      {
+        "month": "Jul 2026",
+        "value": 187
+      },
+      {
+        "month": "Aug 2026",
+        "value": 187
+      }
+    ]
+  },
+  {
+    "rank": 166,
+    "broker": "Sunshine Stock Broking Private Limited",
+    "activeClients": 182,
+    "marketShare": 0.0,
+    "change": 1.68,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 181
+      },
+      {
+        "month": "May 2026",
+        "value": 183
+      },
+      {
+        "month": "Jun 2026",
+        "value": 182
+      },
+      {
+        "month": "Jul 2026",
+        "value": 179
+      },
+      {
+        "month": "Aug 2026",
+        "value": 182
+      }
+    ]
+  },
+  {
+    "rank": 167,
+    "broker": "Munoth Financial Services Ltd.",
+    "activeClients": 178,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 178
+      }
+    ]
+  },
+  {
+    "rank": 168,
+    "broker": "Dyna Wegmans Securities Limited",
+    "activeClients": 173,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 173
+      }
+    ]
+  },
+  {
+    "rank": 169,
+    "broker": "Nirmal Bang Equities Private Limited",
+    "activeClients": 153,
+    "marketShare": 0.0,
+    "change": 2.0,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 144
+      },
+      {
+        "month": "May 2026",
+        "value": 146
+      },
+      {
+        "month": "Jun 2026",
+        "value": 146
+      },
+      {
+        "month": "Jul 2026",
+        "value": 150
+      },
+      {
+        "month": "Aug 2026",
+        "value": 153
+      }
+    ]
+  },
+  {
+    "rank": 170,
+    "broker": "Avendus Wealth Management Private Limited",
+    "activeClients": 138,
+    "marketShare": 0.0,
+    "change": 26.61,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 78
+      },
+      {
+        "month": "Jun 2026",
+        "value": 92
+      },
+      {
+        "month": "Jul 2026",
+        "value": 109
+      },
+      {
+        "month": "Aug 2026",
+        "value": 138
+      }
+    ]
+  },
+  {
+    "rank": 171,
+    "broker": "Fortune Capital Services",
+    "activeClients": 105,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 105
+      },
+      {
+        "month": "Aug 2026",
+        "value": 105
+      }
+    ]
+  },
+  {
+    "rank": 172,
+    "broker": "Svcm Securities Private Limited",
+    "activeClients": 87,
+    "marketShare": 0.0,
+    "change": -4.4,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 91
+      },
+      {
+        "month": "Aug 2026",
+        "value": 87
+      }
+    ]
+  },
+  {
+    "rank": 173,
+    "broker": "New Berry Capitals Private Limited",
+    "activeClients": 81,
+    "marketShare": 0.0,
+    "change": 6.58,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 78
+      },
+      {
+        "month": "May 2026",
+        "value": 78
+      },
+      {
+        "month": "Jun 2026",
+        "value": 80
+      },
+      {
+        "month": "Jul 2026",
+        "value": 76
+      },
+      {
+        "month": "Aug 2026",
+        "value": 81
+      }
+    ]
+  },
+  {
+    "rank": 174,
+    "broker": "Arete Securities Limited",
+    "activeClients": 78,
+    "marketShare": 0.0,
+    "change": -1.27,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 77
+      },
+      {
+        "month": "May 2026",
+        "value": 77
+      },
+      {
+        "month": "Jun 2026",
+        "value": 77
+      },
+      {
+        "month": "Jul 2026",
+        "value": 79
+      },
+      {
+        "month": "Aug 2026",
+        "value": 78
+      }
+    ]
+  },
+  {
+    "rank": 175,
+    "broker": "Singhal Capital Services Ltd.",
+    "activeClients": 72,
+    "marketShare": 0.0,
+    "change": -6.49,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 87
+      },
+      {
+        "month": "May 2026",
+        "value": 85
+      },
+      {
+        "month": "Jun 2026",
+        "value": 83
+      },
+      {
+        "month": "Jul 2026",
+        "value": 77
+      },
+      {
+        "month": "Aug 2026",
+        "value": 72
+      }
+    ]
+  },
+  {
+    "rank": 176,
+    "broker": "Ksn Credence Commodities Trading Private Limited",
+    "activeClients": 71,
+    "marketShare": 0.0,
+    "change": 4.41,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 55
+      },
+      {
+        "month": "May 2026",
+        "value": 58
+      },
+      {
+        "month": "Jun 2026",
+        "value": 61
+      },
+      {
+        "month": "Jul 2026",
+        "value": 68
+      },
+      {
+        "month": "Aug 2026",
+        "value": 71
+      }
+    ]
+  },
+  {
+    "rank": 177,
+    "broker": "Integra Securities Private Limited",
+    "activeClients": 56,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Aug 2026",
+        "value": 56
+      }
+    ]
+  },
+  {
+    "rank": 178,
+    "broker": "Maheshwari Equity Services (p) Limited",
+    "activeClients": 51,
+    "marketShare": 0.0,
+    "change": -3.77,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 52
+      },
+      {
+        "month": "May 2026",
+        "value": 51
+      },
+      {
+        "month": "Jun 2026",
+        "value": 52
+      },
+      {
+        "month": "Jul 2026",
+        "value": 53
+      },
+      {
+        "month": "Aug 2026",
+        "value": 51
+      }
+    ]
+  },
+  {
+    "rank": 179,
+    "broker": "Dynamic Equities Private Limited",
+    "activeClients": 41,
+    "marketShare": 0.0,
+    "change": 5.13,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 39
+      },
+      {
+        "month": "Aug 2026",
+        "value": 41
+      }
+    ]
+  },
+  {
+    "rank": 180,
+    "broker": "Shri Ram Commodities",
+    "activeClients": 36,
+    "marketShare": 0.0,
+    "change": -2.7,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 39
+      },
+      {
+        "month": "Jul 2026",
+        "value": 37
+      },
+      {
+        "month": "Aug 2026",
+        "value": 36
+      }
+    ]
+  },
+  {
+    "rank": 181,
+    "broker": "Khosla Tradewise Private Limited",
+    "activeClients": 33,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 33
+      },
+      {
+        "month": "Aug 2026",
+        "value": 33
+      }
+    ]
+  },
+  {
+    "rank": 182,
+    "broker": "Dhan Stock & Share Brokers Pvt. Ltd.",
+    "activeClients": 25,
+    "marketShare": 0.0,
+    "change": 0,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 26
+      },
+      {
+        "month": "May 2026",
+        "value": 26
+      },
+      {
+        "month": "Jun 2026",
+        "value": 26
+      },
+      {
+        "month": "Aug 2026",
+        "value": 25
+      }
+    ]
+  },
+  {
+    "rank": 183,
+    "broker": "Junomoneta Finsol Private Limited",
+    "activeClients": 23,
+    "marketShare": 0.0,
+    "change": 21.05,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 4
+      },
+      {
+        "month": "Jun 2026",
+        "value": 14
+      },
+      {
+        "month": "Jul 2026",
+        "value": 19
+      },
+      {
+        "month": "Aug 2026",
+        "value": 23
+      }
+    ]
+  },
+  {
+    "rank": 184,
+    "broker": "Bajaj Share & Stock Brokers Pvt. Ltd",
+    "activeClients": 20,
+    "marketShare": 0.0,
+    "change": -4.76,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 21
+      },
+      {
+        "month": "Jun 2026",
+        "value": 21
+      },
+      {
+        "month": "Jul 2026",
+        "value": 21
+      },
+      {
+        "month": "Aug 2026",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "rank": 185,
+    "broker": "Share India Algoplus Private Limited",
+    "activeClients": 20,
+    "marketShare": 0.0,
+    "change": 33.33,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 13
+      },
+      {
+        "month": "May 2026",
+        "value": 14
+      },
+      {
+        "month": "Jun 2026",
+        "value": 15
+      },
+      {
+        "month": "Jul 2026",
+        "value": 15
+      },
+      {
+        "month": "Aug 2026",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "rank": 186,
+    "broker": "Kifs Broking Private Limited",
+    "activeClients": 6,
+    "marketShare": 0.0,
+    "change": 20.0,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 5
+      },
+      {
+        "month": "Jul 2026",
+        "value": 5
+      },
+      {
+        "month": "Aug 2026",
+        "value": 6
+      }
+    ]
+  },
+  {
+    "rank": 187,
+    "broker": "Icici Bank Ltd.",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1
+      },
+      {
+        "month": "May 2026",
+        "value": 1
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 188,
+    "broker": "Union Bank Of India",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Apr 2026",
+        "value": 1
+      },
+      {
+        "month": "May 2026",
+        "value": 1
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 189,
+    "broker": "Citadel Securities India Markets Private Limited",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 190,
+    "broker": "Finsol Securities Private Limited",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "May 2026",
+        "value": 1
+      },
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 191,
+    "broker": "Axis Bank Ltd.",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 192,
+    "broker": "Punjab National Bank",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 193,
+    "broker": "State Bank Of India",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jun 2026",
+        "value": 1
+      },
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "rank": 194,
+    "broker": "Stockfield Financial Services Private Limited",
+    "activeClients": 1,
+    "marketShare": 0.0,
+    "change": 0.0,
+    "history": [
+      {
+        "month": "Jul 2026",
+        "value": 1
+      },
+      {
+        "month": "Aug 2026",
+        "value": 1
       }
     ]
   }

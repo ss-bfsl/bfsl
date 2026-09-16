@@ -69,9 +69,12 @@ def build_broker_leaderboard(xl):
     df = pd.read_excel(xl, sheet_name="NSE active client data", header=None)
     month_columns = []
     for column_index, value in enumerate(df.iloc[1, 1:], start=1):
-        if not is_valid(value):
+        if isinstance(value, (int, float)) or not is_valid(value):
             break
-        month_columns.append((column_index, value))
+        parsed_date = pd.to_datetime(value, errors="coerce")
+        if pd.isna(parsed_date):
+            break
+        month_columns.append((column_index, parsed_date))
 
     if len(month_columns) < 2:
         raise ValueError("NSE active client data must contain at least two month columns")
