@@ -25,7 +25,7 @@ import re
 import sys
 from pathlib import Path
 
-import pandas as pd  # pyright: ignore[reportMissingModuleSource]
+import pandas as pd
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
@@ -66,11 +66,15 @@ def to_num(v):
 
 def build_broker_leaderboard(xl):
     df = pd.read_excel(xl, sheet_name="NSE active client data", header=None)
+    month_labels = [d.strftime("%b %Y") if hasattr(d, "strftime") else d
+                    for d in df.iloc[1, 1:6].tolist()]
     data = df.iloc[2:].copy()
     data.columns = ["broker", "m1", "m2", "m3", "m4", "m5", "diff", "mktshare",
                      "x1", "x2", "x3", "x4"]
-    data["latest"] = data["m5"].apply(to_num)
-    data["prev"] = data["m4"].apply(to_num)
+    for col in ["m1", "m2", "m3", "m4", "m5"]:
+        data[col + "_num"] = data[col].apply(to_num)
+    data["latest"] = data["m5_num"]
+    data["prev"] = data["m4_num"]
 
     mask_total = data["broker"].astype(str).str.contains("Total", case=False, na=False)
     clean = data[~mask_total].copy()
@@ -84,12 +88,18 @@ def build_broker_leaderboard(xl):
         latest, prev = row["latest"], row["prev"]
         change = round((latest - prev) / prev * 100, 2) if prev and prev > 0 else 0
         name = re.sub(r"\s{2,}", " ", str(row["broker"]).strip())
+        history = []
+        for j, col in enumerate(["m1", "m2", "m3", "m4", "m5"]):
+            v = row[col + "_num"]
+            if v is not None and v > 0:
+                history.append({"month": month_labels[j], "value": int(v)})
         records.append({
             "rank": i + 1,
             "broker": name,
             "activeClients": int(latest),
             "marketShare": round(latest / total_latest * 100, 2),
             "change": change,
+            "history": history,
         })
     return records
 
@@ -186,6 +196,7 @@ def build_industry_params(xl):
         clean_param = re.sub(r"\s*\(In\s?Cr\)|\s*\(lakh Crore\)|\s*\(Lk Cr\)", "",
                               str(param), flags=re.I).strip()
         clean_param = re.sub(r"\s{2,}", " ", clean_param)
+        history = [{"month": dates[j], "value": float(values[j])} for j in idxs]
         records.append({
             "category": categorize(str(param), cat_col),
             "param": clean_param,
@@ -195,6 +206,7 @@ def build_industry_params(xl):
             "source": source_label(source),
             "sourceUrl": source_url(source),
             "asOf": dates[last_idx],
+            "history": history,
         })
     return records
 
@@ -220,18 +232,14 @@ MF_FIELDS = [
 def build_mf_sif(xl):
     df = pd.read_excel(xl, sheet_name="MF & SIF Data", header=None)
     dates = df.iloc[0, 2:].tolist()
+    month_labels = [d.strftime("%b %Y") if hasattr(d, "strftime") else str(d) for d in dates]
 
-    def get_last_prev(param):
+    def get_series(param):
         row = df[df[0] == param]
         if row.empty:
-            return None, None
+            return []
         vals = row.iloc[0, 2:].tolist()
-        idxs = [j for j, v in enumerate(vals) if is_valid(v)]
-        if not idxs:
-            return None, None
-        last_idx = idxs[-1]
-        prev_idx = idxs[-2] if len(idxs) >= 2 else None
-        return float(vals[last_idx]), (float(vals[prev_idx]) if prev_idx is not None else None)
+        return [(j, float(v)) for j, v in enumerate(vals) if is_valid(v)]
 
     def pct(last, prev):
         if last is None or prev is None or prev == 0:
@@ -240,25 +248,20 @@ def build_mf_sif(xl):
 
     headline = []
     for label, param, fmt in MF_FIELDS:
-        last, prev = get_last_prev(param)
-        if last is None:
+        series = get_series(param)
+        if not series:
             continue
-        headline.append({"label": label, "value": fmt(last), "change": pct(last, prev)})
+        last_idx, last_val = series[-1]
+        prev_val = series[-2][1] if len(series) >= 2 else None
+        history = [{"month": month_labels[j], "value": v} for j, v in series]
+        headline.append({
+            "label": label,
+            "value": fmt(last_val),
+            "change": pct(last_val, prev_val),
+            "history": history,
+        })
 
-    total_s = df[df[0] == "Total AUM (Lk Cr)"].iloc[0, 2:].tolist()
-    equity_s = df[df[0] == "Equity AUM (Lk Cr)"].iloc[0, 2:].tolist()
-    trend = []
-    for j in range(len(dates)):
-        d = dates[j]
-        if is_valid(total_s[j]) and is_valid(equity_s[j]):
-            trend.append({
-                "month": d.strftime("%b %y") if hasattr(d, "strftime") else str(d),
-                "totalAum": round(float(total_s[j]), 1),
-                "equityAum": round(float(equity_s[j]), 1),
-            })
-    trend = trend[-12:]
-
-    return {"headline": headline, "aumTrend": trend}
+    return {"headline": headline}
 
 
 # ────────────────────────── JS output ──────────────────────────
@@ -341,8 +344,7 @@ def main():
 
     print("[4/4] Building MF & SIF data ...")
     mf_sif = build_mf_sif(xl)
-    print(f"       -> {len(mf_sif['headline'])} headline stats, "
-          f"{len(mf_sif['aumTrend'])} months of AUM trend")
+    print(f"       -> {len(mf_sif['headline'])} headline stats, each with full history")
 
     output_path = Path(args.output)
     write_mock_data(output_path, brokers, industry, mf_sif)

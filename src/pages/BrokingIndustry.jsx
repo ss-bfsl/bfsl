@@ -1,10 +1,12 @@
 import { useMemo, useState } from 'react';
 import { useDataset } from '../lib/useDataset';
 import FetchBar from '../components/FetchBar';
+import DetailModal from '../components/DetailModal';
 
 export default function BrokingIndustry() {
   const { data, ...fetchMeta } = useDataset('industryParams', 'monthly');
   const [activeCategory, setActiveCategory] = useState('All');
+  const [selected, setSelected] = useState(null);
 
   const categories = useMemo(() => {
     if (!data) return ['All'];
@@ -24,7 +26,8 @@ export default function BrokingIndustry() {
           <h1 className="page-title">Broking industry data</h1>
           <div className="page-sub">
             FII/DII volumes, demat accounts, turnover, flows and more — {data?.length ?? '30+'} parameters,
-            each pulled from its own public source. Auto-refreshes in the first week of every month.
+            each pulled from its own public source. Click any row for its full history. Auto-refreshes
+            in the first week of every month.
           </div>
         </div>
       </div>
@@ -61,12 +64,13 @@ export default function BrokingIndustry() {
                 <th>Current</th>
                 <th>Previous</th>
                 <th>Change</th>
+                <th>As of</th>
                 <th>Source</th>
               </tr>
             </thead>
             <tbody>
               {filtered.map((p) => (
-                <tr key={p.param}>
+                <tr key={p.param} onClick={() => setSelected(p)} style={{ cursor: 'pointer' }}>
                   <td>
                     {p.param}
                     <div style={{ fontSize: 11, color: 'var(--text-faint)' }}>{p.category}</div>
@@ -76,8 +80,15 @@ export default function BrokingIndustry() {
                   <td className={p.change >= 0 ? 'delta-up mono' : 'delta-down mono'}>
                     {p.change >= 0 ? '▲' : '▼'} {Math.abs(p.change)}%
                   </td>
+                  <td className="mono" style={{ color: 'var(--text-faint)', fontSize: 12 }}>{p.asOf}</td>
                   <td>
-                    <a className="source-link" href={p.sourceUrl} target="_blank" rel="noreferrer">
+                    <a
+                      className="source-link"
+                      href={p.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       {p.source} ↗
                     </a>
                   </td>
@@ -87,6 +98,15 @@ export default function BrokingIndustry() {
           </table>
         )}
       </div>
+
+      {selected && (
+        <DetailModal
+          title={selected.param}
+          subtitle={`${selected.category} · Source: ${selected.source}`}
+          history={selected.history}
+          onClose={() => setSelected(null)}
+        />
+      )}
     </div>
   );
 }
