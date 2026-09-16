@@ -21,6 +21,7 @@
 import { BROKER_LEADERBOARD, INDUSTRY_PARAMS, NEWS_ITEMS, MF_SIF_DATA } from '../data/mockData';
 
 const STORAGE_PREFIX = 'cbt:'; // competitor-benchmark-tool
+const DATA_VERSION = 2;
 
 const STORAGE = {
   get(key) {
@@ -102,10 +103,11 @@ export async function loadDataset(datasetKey, { cadence = 'monthly' } = {}) {
     const dueForAutoFetch =
       isWithinFirstWeekOfMonth(now) && (!cached || cached.fetchedForMonth !== monthKey(now));
 
-    if (!cached || dueForAutoFetch) {
+    if (!cached || cached.dataVersion !== DATA_VERSION || dueForAutoFetch) {
       const data = await REMOTE_FETCHERS[datasetKey]();
       const record = {
         data,
+        dataVersion: DATA_VERSION,
         fetchedAt: now.toISOString(),
         fetchedForMonth: monthKey(now),
         trigger: cached ? 'auto-monthly' : 'initial',
@@ -118,10 +120,10 @@ export async function loadDataset(datasetKey, { cadence = 'monthly' } = {}) {
 
   if (cadence === 'hourly') {
     const HOUR = 60 * 60 * 1000;
-    const stale = !cached || now.getTime() - new Date(cached.fetchedAt).getTime() > HOUR;
+    const stale = !cached || cached.dataVersion !== DATA_VERSION || now.getTime() - new Date(cached.fetchedAt).getTime() > HOUR;
     if (stale) {
       const data = await REMOTE_FETCHERS[datasetKey]();
-      const record = { data, fetchedAt: now.toISOString(), trigger: cached ? 'auto-hourly' : 'initial' };
+      const record = { data, dataVersion: DATA_VERSION, fetchedAt: now.toISOString(), trigger: cached ? 'auto-hourly' : 'initial' };
       STORAGE.set(datasetKey, record);
       return record;
     }
@@ -131,7 +133,7 @@ export async function loadDataset(datasetKey, { cadence = 'monthly' } = {}) {
   // Fallback: no cadence rule, just fetch fresh once and cache it.
   if (cached) return cached;
   const data = await REMOTE_FETCHERS[datasetKey]();
-  const record = { data, fetchedAt: now.toISOString(), trigger: 'initial' };
+  const record = { data, dataVersion: DATA_VERSION, fetchedAt: now.toISOString(), trigger: 'initial' };
   STORAGE.set(datasetKey, record);
   return record;
 }
@@ -141,6 +143,7 @@ export async function forceRefresh(datasetKey) {
   const data = await REMOTE_FETCHERS[datasetKey]();
   const record = {
     data,
+    dataVersion: DATA_VERSION,
     fetchedAt: new Date().toISOString(),
     fetchedForMonth: monthKey(),
     trigger: 'manual',

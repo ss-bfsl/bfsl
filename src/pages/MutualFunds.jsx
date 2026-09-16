@@ -11,8 +11,16 @@ export default function MutualFunds() {
 
   // Combine Total AUM + Equity AUM histories into one series for the overview chart.
   const combinedTrend = useMemo(() => {
-    if (!Array.isArray(data?.aumTrend)) return [];
-    return data.aumTrend;
+    if (Array.isArray(data?.aumTrend)) return data.aumTrend;
+    const headline = Array.isArray(data?.headline) ? data.headline : [];
+    const total = headline.find((item) => item.label === 'Total AUM');
+    const equity = headline.find((item) => item.label === 'Equity AUM');
+    if (!Array.isArray(total?.history)) return [];
+    return total.history.map((point, index) => ({
+      month: point.month,
+      totalAum: point.value,
+      equityAum: equity?.history?.[index]?.value ?? null,
+    }));
   }, [data]);
 
   const headline = Array.isArray(data?.headline) ? data.headline : [];

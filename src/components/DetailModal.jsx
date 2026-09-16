@@ -10,12 +10,27 @@ const RANGES = [
 
 export default function DetailModal({ title, subtitle, history, onClose }) {
   const [range, setRange] = useState('1y');
+  const [page, setPage] = useState(0);
 
   const rows = useMemo(() => {
-    if (!history) return [];
+    if (!Array.isArray(history)) return [];
     const activeRange = RANGES.find((r) => r.key === range) ?? RANGES[1];
-    return activeRange.months === Infinity ? history : history.slice(-activeRange.months);
-  }, [history, range]);
+    if (activeRange.months === Infinity) return history;
+    const pageCount = Math.ceil(history.length / activeRange.months);
+    const currentPage = Math.min(page, Math.max(pageCount - 1, 0));
+    const end = history.length - currentPage * activeRange.months;
+    return history.slice(Math.max(0, end - activeRange.months), end);
+  }, [history, page, range]);
+
+  const activeRange = RANGES.find((r) => r.key === range) ?? RANGES[1];
+  const pageCount = activeRange.months === Infinity ? 1 : Math.max(1, Math.ceil((history?.length ?? 0) / activeRange.months));
+  const canGoOlder = activeRange.months !== Infinity && page < pageCount - 1;
+  const canGoNewer = activeRange.months !== Infinity && page > 0;
+
+  const changeRange = (nextRange) => {
+    setRange(nextRange);
+    setPage(0);
+  };
 
   if (!Array.isArray(history)) return null;
 
@@ -65,7 +80,7 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
               {RANGES.map((r) => (
                 <button
                   key={r.key}
-                  onClick={() => setRange(r.key)}
+                  onClick={() => changeRange(r.key)}
                   className="btn"
                   style={{
                     padding: '5px 12px',
@@ -78,6 +93,26 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
                   {r.label}
                 </button>
               ))}
+              {activeRange.months !== Infinity && (
+                <>
+                  <button
+                    className="btn"
+                    onClick={() => setPage((current) => current + 1)}
+                    disabled={!canGoOlder}
+                    style={{ padding: '5px 10px', fontSize: 12, marginLeft: 4 }}
+                  >
+                    ← Older
+                  </button>
+                  <button
+                    className="btn"
+                    onClick={() => setPage((current) => current - 1)}
+                    disabled={!canGoNewer}
+                    style={{ padding: '5px 10px', fontSize: 12 }}
+                  >
+                    Newer →
+                  </button>
+                </>
+              )}
               <span style={{ marginLeft: 'auto', fontSize: 11.5, color: 'var(--text-faint)', alignSelf: 'center' }}>
                 {history.length} month{history.length === 1 ? '' : 's'} available total
               </span>
