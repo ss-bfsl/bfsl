@@ -93,10 +93,10 @@ export default function MutualFunds() {
             </div>
           )}
 
-          <div className="panel" style={{ padding: '14px 18px', fontSize: 12.5, color: 'var(--text-faint)' }}>
+          {/* <div className="panel" style={{ padding: '14px 18px', fontSize: 12.5, color: 'var(--text-faint)' }}>
             Top-AMC-by-AUM breakdown isn't in your source workbook yet — send that data whenever you have
             it and it'll slot in here as a table, the same way the rest of this page was wired up.
-          </div>
+          </div> */}
         </>
       )}
 

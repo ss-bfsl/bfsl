@@ -41,6 +41,13 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r server/requirements.txt
 
+      - name: Install Excel data dependencies
+        run: pip install pandas openpyxl
+
+      - name: Generate frontend data from Excel
+        if: hashFiles('*.xlsx') != ''
+        run: python scripts/generate_data.py
+
       - name: Generate news data
         run: python scripts/generate_news.py
 
