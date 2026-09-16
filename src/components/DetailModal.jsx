@@ -17,7 +17,7 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
     return activeRange.months === Infinity ? history : history.slice(-activeRange.months);
   }, [history, range]);
 
-  if (!history) return null;
+  if (!Array.isArray(history)) return null;
 
   return (
     <div
@@ -60,13 +60,8 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
           </button>
         </div>
 
-        {history.length === 0 ? (
-          <div style={{ padding: '30px 0', color: 'var(--text-dim)', fontSize: 13, textAlign: 'center' }}>
-            No historical data available yet for this item.
-          </div>
-        ) : (
-          <>
-            <div style={{ display: 'flex', gap: 6, margin: '16px 0' }}>
+        <>
+          <div style={{ display: 'flex', gap: 6, margin: '16px 0' }}>
               {RANGES.map((r) => (
                 <button
                   key={r.key}
@@ -86,9 +81,15 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
               <span style={{ marginLeft: 'auto', fontSize: 11.5, color: 'var(--text-faint)', alignSelf: 'center' }}>
                 {history.length} month{history.length === 1 ? '' : 's'} available total
               </span>
-            </div>
+          </div>
 
-            <div style={{ height: 220, marginBottom: 18 }}>
+          {history.length === 0 ? (
+            <div style={{ padding: '30px 0', color: 'var(--text-dim)', fontSize: 13, textAlign: 'center' }}>
+              No historical data available yet for this item.
+            </div>
+          ) : (
+            <>
+              <div style={{ height: 220, marginBottom: 18 }}>
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={rows} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
                   <CartesianGrid stroke="#29334a" vertical={false} />
@@ -102,9 +103,9 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
                   <Line type="monotone" dataKey="value" stroke="#e0a94e" strokeWidth={2} dot={{ r: 2.5, fill: '#e0a94e' }} />
                 </LineChart>
               </ResponsiveContainer>
-            </div>
+              </div>
 
-            <table className="hairline-table">
+              <table className="hairline-table">
               <thead>
                 <tr>
                   <th>Month</th>
@@ -119,9 +120,10 @@ export default function DetailModal({ title, subtitle, history, onClose }) {
                   </tr>
                 ))}
               </tbody>
-            </table>
-          </>
-        )}
+              </table>
+            </>
+          )}
+        </>
       </div>
     </div>
   );

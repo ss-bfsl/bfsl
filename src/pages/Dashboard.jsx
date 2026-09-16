@@ -134,7 +134,7 @@ export default function Dashboard() {
             <div style={{ color: 'var(--text-dim)', fontSize: 13 }}>Loading…</div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-              {mf.data?.headline.slice(0, 4).map((h) => (
+              {(Array.isArray(mf.data?.headline) ? mf.data.headline : []).slice(0, 4).map((h) => (
                 <div key={h.label} style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12.5 }}>
                   <span style={{ color: 'var(--text-dim)' }}>{h.label}</span>
                   <span className="mono">{h.value}</span>

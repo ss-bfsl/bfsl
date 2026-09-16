@@ -11,16 +11,22 @@ export default function MutualFunds() {
 
   // Combine Total AUM + Equity AUM histories into one series for the overview chart.
   const combinedTrend = useMemo(() => {
-    if (!data) return [];
-    const total = data.headline.find((h) => h.label === 'Total AUM');
-    const equity = data.headline.find((h) => h.label === 'Equity AUM');
-    if (!total || !equity) return [];
-    return total.history.map((point, i) => ({
-      month: point.month,
-      totalAum: point.value,
-      equityAum: equity.history[i]?.value ?? null,
-    }));
+    if (!Array.isArray(data?.aumTrend)) return [];
+    return data.aumTrend;
   }, [data]);
+
+  const headline = Array.isArray(data?.headline) ? data.headline : [];
+
+  const historyFor = (item) => {
+    if (Array.isArray(item.history)) return item.history;
+    if (item.label === 'Total AUM') {
+      return combinedTrend.map(({ month, totalAum }) => ({ month, value: totalAum }));
+    }
+    if (item.label === 'Equity AUM') {
+      return combinedTrend.map(({ month, equityAum }) => ({ month, value: equityAum }));
+    }
+    return [];
+  };
 
   return (
     <div className="content">
@@ -48,8 +54,8 @@ export default function MutualFunds() {
               marginBottom: 22,
             }}
           >
-            {data.headline.map((h) => (
-              <div key={h.label} onClick={() => setSelected(h)} style={{ cursor: 'pointer' }}>
+            {headline.map((h) => (
+              <div key={h.label} onClick={() => setSelected({ ...h, history: historyFor(h) })} style={{ cursor: 'pointer' }}>
                 <StatCard label={h.label} value={h.value} change={h.change} />
               </div>
             ))}
