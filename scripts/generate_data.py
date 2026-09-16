@@ -115,7 +115,6 @@ def build_broker_leaderboard(xl):
     clean = data[~mask_total].copy()
     clean = clean[clean["latest"].notna() & (clean["latest"] > 0)]
 
-    total_latest = clean["latest"].sum()
     clean = clean.sort_values("latest", ascending=False).reset_index(drop=True)
 
     records = []
@@ -132,10 +131,7 @@ def build_broker_leaderboard(xl):
             "rank": i + 1,
             "broker": name,
             "activeClients": int(latest),
-            "marketShare": round(
-                row["excelMarketShare"] if row["excelMarketShare"] is not None else latest / total_latest * 100,
-                2,
-            ),
+            "marketShare": round(row["excelMarketShare"], 2) if row["excelMarketShare"] is not None else None,
             "change": change,
             "history": history,
         })

@@ -80,7 +80,7 @@ export default function ActiveClients() {
                   <td className="mono" style={{ color: 'var(--text-faint)' }}>{b.rank}</td>
                   <td>{b.broker}</td>
                   <td className="mono">{b.activeClients.toLocaleString('en-IN')}</td>
-                  <td className="mono">{b.marketShare}%</td>
+                  <td className="mono">{typeof b.marketShare === 'number' ? `${b.marketShare}%` : '—'}</td>
                   <td className={b.change >= 0 ? 'delta-up mono' : 'delta-down mono'}>
                     {b.change >= 0 ? '▲' : '▼'} {Math.abs(b.change)}%
                   </td>
